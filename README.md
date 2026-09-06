@@ -54,6 +54,8 @@ define the constraint graph format: node ids, roles, local frames, ratio locks, 
 **phase 1 — core engine, demo-agnostic.**
 svgery core as a pure library, built before any demo: graph store (nodes/constraints/ops as data), pure checker (`(graph, op) → reject | effects`, dof accounting borrowed from cad), deterministic applier, keyed svg adapter (node id → element, minimal patches, react-style reconciliation), view projections (thin extrusion model + per-view affine matrices), op log with replay. the shelf is a consumer, not the codebase. prior art + engine notes: [docs/research-background.md](docs/research-background.md).
 
+status: **core exists** — `src/` + `test/` (15 tests, `npm install && npm test`). graph store (stable ids, tombstones, canonical serialization), pure checker (whitelist + ratio locks + dof accounting), deterministic applier, op log with replay-verified provenance, dependency-free sha256. zero runtime deps; runs in node and browser. `dom/` and `views/` land next, then the shelf demo as a thin consumer.
+
 **phase 2 — one shelf, hand-authored.**
 hand-build the shelving unit: svg per view (front, side, top, iso) + its constraint graph + the edit ops (`insert_tier`, `remove_tier`, `stretch`, `recolor`, `rotate`, `swap_view`). no generation yet. prove that surgical edits keep identity and that views stay consistent after every op. ship the right-click context menu demo.
 
