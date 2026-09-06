@@ -54,7 +54,11 @@ define the constraint graph format: node ids, roles, local frames, ratio locks, 
 **phase 1 — core engine, demo-agnostic.**
 svgery core as a pure library, built before any demo: graph store (nodes/constraints/ops as data), pure checker (`(graph, op) → reject | effects`, dof accounting borrowed from cad), deterministic applier, keyed svg adapter (node id → element, minimal patches, react-style reconciliation), view projections (thin extrusion model + per-view affine matrices), op log with replay. the shelf is a consumer, not the codebase. prior art + engine notes: [docs/research-background.md](docs/research-background.md).
 
-status: **core exists** — `src/` + `test/` (15 tests, `npm install && npm test`). graph store (stable ids, tombstones, canonical serialization), pure checker (whitelist + ratio locks + dof accounting), deterministic applier, op log with replay-verified provenance, dependency-free sha256. zero runtime deps; runs in node and browser. `dom/` and `views/` land next, then the shelf demo as a thin consumer.
+status: **core + views + dom adapter exist** — `src/` + `test/` (30 tests, `npm install && npm test`), zero runtime deps.
+
+- **views/** — one camera for all views: front/side/top are orthographic presets (az/el), iso is axonometric. boxy furniture = extruded 2D profiles (frame is the front face, the `depth` attr extrudes it, children inherit depth). every view is *derived* — a projection of the same graph, never an independent drawing.
+- **dom/** — the keyed svg adapter: node id → element, minimal patches, react-style reconciliation. recolor patches one element; insert patches one add plus the respaced tiers; **swap_view patches zero adds and zero removes** — the falsifier, made mechanical and tested.
+- **demo/** — the kallax shelf as a thin consumer. right-click the shelf: insert/remove tiers, stretch, recolor, rotate, turn views. every visible change is an op: checked, applied, logged (provenance panel shows checksums), patched. `npm run build && npx serve .` → open `demo/`.
 
 **phase 2 — one shelf, hand-authored.**
 hand-build the shelving unit: svg per view (front, side, top, iso) + its constraint graph + the edit ops (`insert_tier`, `remove_tier`, `stretch`, `recolor`, `rotate`, `swap_view`). no generation yet. prove that surgical edits keep identity and that views stay consistent after every op. ship the right-click context menu demo.

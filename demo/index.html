@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>svgery — keep the svg, change it under rules</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font-family: ui-monospace, 'SF Mono', Menlo, monospace; display: flex; min-height: 100vh; }
+  main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; }
+  h1 { font-size: 14px; font-weight: 600; letter-spacing: .04em; opacity: .7; margin: 0 0 4px; }
+  p.hint { font-size: 12px; opacity: .55; margin: 0 0 16px; }
+  #scene { width: min(70vh, 520px); height: min(70vh, 520px); background: light-dark(#f7f5f1, #16181d); border-radius: 12px; cursor: context-menu; }
+  #scene polygon { stroke: light-dark(#00000022, #ffffff22); stroke-width: 1; }
+  aside { width: 300px; border-left: 1px solid light-dark(#00000018, #ffffff14); padding: 16px; font-size: 12px; }
+  aside h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; opacity: .5; margin: 18px 0 6px; }
+  aside h2:first-child { margin-top: 0; }
+  #checksum { word-break: break-all; opacity: .6; }
+  #status { color: #c0392b; min-height: 16px; }
+  #log { list-style: none; padding: 0; margin: 0; }
+  #log li { opacity: .75; padding: 3px 0; border-bottom: 1px dashed light-dark(#00000010, #ffffff0c); }
+  #log li b { opacity: 1; }
+  #menu { position: fixed; background: light-dark(#ffffff, #1d2027); border: 1px solid light-dark(#00000022, #ffffff22); border-radius: 8px; box-shadow: 0 8px 24px #00000030; padding: 6px; display: none; z-index: 10; min-width: 170px; }
+  #menu button { display: block; width: 100%; text-align: left; padding: 6px 10px; border: 0; background: none; font: inherit; cursor: pointer; border-radius: 5px; }
+  #menu button:hover { background: light-dark(#0000000d, #ffffff12); }
+  #menu hr { border: 0; border-top: 1px solid light-dark(#00000014, #ffffff14); margin: 4px 0; }
+  #menu .view { font-weight: 700; }
+  #menu .view.current::after { content: ' ✓'; }
+</style>
+</head>
+<body>
+<main>
+  <h1>svgery</h1>
+  <p class="hint">keep the svg, change it under rules — right-click the shelf</p>
+  <svg id="scene" xmlns="http://www.w3.org/2000/svg"></svg>
+</main>
+<aside>
+  <h2>state</h2>
+  <div id="view">view: front</div>
+  <div id="ops">ops: 0</div>
+  <div id="patch">last edit: —</div>
+  <div id="status"></div>
+  <h2>graph checksum</h2>
+  <div id="checksum">…</div>
+  <h2>op log (provenance)</h2>
+  <ul id="log"></ul>
+</aside>
+<div id="menu"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

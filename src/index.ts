@@ -5,4 +5,7 @@ export * from './apply/applier';
 export * from './check/checker';
 export * from './check/dof';
 export * from './log/log';
+export * from './views/views';
+export * from './dom/adapter';
+export * from './dom/host';
 export * from './engine';
