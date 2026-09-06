@@ -1,9 +1,17 @@
 # svgery
 
-procedural generative manipulation of svgs.
+svgery tackles procedural generative manipulation of svgs by rewriting the drawing in place under a fixed constraint graph: what may move, what must stay, what ratios lock. not paper.js-style remaking the whole picture every time.
 
-not paper.js-style remaking the drawing each time. keep the svg, rewrite it in place under fixed constraints (what may move, what must stay, what ratios lock).
+or simply put, we think stuffing a canvas with a fresh pile of paths every frame doesn't make the drawing smarter. **keep the svg, change it under rules.** the constraint graph is the product; the renderer is just the mouth.
 
-the hard part is the constraint graph, not the renderer.
+## the idea behind in-place mutation
 
-we'll start with working on this in a separate project with ikea furniture (using dimensions.com technical diagrams as our reference point for different views).
+most generative svg stacks treat the canvas as something you clear and rebuild. that throws away identity. a chair that was a chair is now a new pile of paths that happen to look like a chair.
+
+svgery wants the opposite: the node is still the node. you twist it, stretch it, swap a view, and the constraints are what stop it from becoming mush. *fixed constraint setting* is the whole thesis. a lock on proportions, joints, and allowed edits so generation is surgery, not redraw.
+
+## what's the goal
+
+a constraint graph you can trust enough to generate from. not a prettier path boolean.
+
+we'll start with working on this in a separate project with ikea furniture (using [dimensions.com](https://www.dimensions.com) technical diagrams as our reference point for different views).
