@@ -49,18 +49,21 @@ the first views are front, side, top, isometric, or 3/4 front. not a free camera
 ## plan
 
 **phase 0 — schema, on paper first.**
-define the constraint graph format: node ids, roles, local frames, ratio locks, joint pins, edit whitelists, view projections. first draft exists: [docs/constraint-graph.md](docs/constraint-graph.md). the format is the product; get it wrong and everything downstream is redraw with extra steps.
+define the constraint graph format: node ids, roles, local frames, ratio locks, joint pins, edit whitelists, view projections. first draft exists: [docs/constraint-graph.md](docs/constraint-graph.md). research survey: [docs/research-background.md](docs/research-background.md). the format is the product; get it wrong and everything downstream is redraw with extra steps.
 
-**phase 1 — one shelf, hand-authored.**
+**phase 1 — core engine, demo-agnostic.**
+svgery core as a pure library, built before any demo: graph store (nodes/constraints/ops as data), pure checker (`(graph, op) → reject | effects`, dof accounting borrowed from cad), deterministic applier, keyed svg adapter (node id → element, minimal patches, react-style reconciliation), view projections (thin extrusion model + per-view affine matrices), op log with replay. the shelf is a consumer, not the codebase. prior art + engine notes: [docs/research-background.md](docs/research-background.md).
+
+**phase 2 — one shelf, hand-authored.**
 hand-build the shelving unit: svg per view (front, side, top, iso) + its constraint graph + the edit ops (`insert_tier`, `remove_tier`, `stretch`, `recolor`, `rotate`, `swap_view`). no generation yet. prove that surgical edits keep identity and that views stay consistent after every op. ship the right-click context menu demo.
 
-**phase 2 — persistence + provenance (xano).**
+**phase 3 — persistence + provenance (xano).**
 graph state and the edit log go to xano (details below). the edit log is the provenance layer: every op logged with params and pre/post checksums, replayable — so the log doubles as a regression suite for the mutation engine. mutate locally, push the diff, replay on load.
 
-**phase 3 — extraction.**
+**phase 4 — extraction.**
 reference corpus → candidate graphs. firecrawl pulls the technical drawings into a local cache; minimax drafts constraint graphs from drawings + measurements; a human signs each graph before it's canonical. extraction is assistive, never authoritative.
 
-**phase 4 — the benchmark.**
+**phase 5 — the benchmark.**
 when does in-place beat redraw? define metrics before building anything fancy: node survival rate across edits, graph validity after view turns, constraint violations per op, redraw-count per session (target: zero). otherwise we're grading our own homework.
 
 ## tooling plan
