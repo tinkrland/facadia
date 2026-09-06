@@ -20,4 +20,4 @@ we'll start with working on this in a separate project with ikea furniture.
 <br>
 <img width="50%" height="430" alt="AG-FURNITURE" src="https://github.com/user-attachments/assets/42e36047-11b9-4c82-939c-46d8942d2666" />
 
-and define them in a way that right clicking this opens a context menu to make its number of tiers go up or adjusted, etc.
+and define them in a way that right clicking this opens a context menu to make its number of tiers go up or adjusted, rotate it, change color, etc.
