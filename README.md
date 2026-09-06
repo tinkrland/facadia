@@ -14,10 +14,18 @@ svgery wants the opposite: the node is still the node. you twist it, stretch it,
 
 a constraint graph you can trust enough to generate from. not a prettier path boolean.
 
-we'll start with working on this in a separate project with ikea furniture. 
-- dimensions (dot) com technical drawing document as our reference point for different views)
-- showitbetter (dot) co kits
+we'll start with working on this in a separate project with ikea furniture.
+
+- [dimensions.com](https://www.dimensions.com) technical drawing documents as our reference point for different views
+- [showitbetter.co](https://showitbetter.co) kits
+
 <br>
 <img width="50%" height="430" alt="AG-FURNITURE" src="https://github.com/user-attachments/assets/42e36047-11b9-4c82-939c-46d8942d2666" />
 
 and define them in a way that right clicking this opens a context menu to make its number of tiers go up or adjusted, rotate it, change color, etc.
+
+## views
+
+the first views we present are front, side, top, isometric, or 3/4 front. not a free camera. same object, same constraint graph, different face showing. the graph has to survive the turn from one view to the next, which is the whole point of not redrawing.
+
+[dimensions.com](https://www.dimensions.com) technical drawings already live in these cameras, so that's where we start.
