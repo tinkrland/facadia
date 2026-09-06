@@ -49,7 +49,7 @@ the first views are front, side, top, isometric, or 3/4 front. not a free camera
 ## plan
 
 **phase 0 — schema, on paper first.**
-define the constraint graph format: node ids, roles, local frames, ratio locks, joint pins, edit whitelists, view projections. one page, hand-written, before any code. the format is the product; get it wrong and everything downstream is redraw with extra steps.
+define the constraint graph format: node ids, roles, local frames, ratio locks, joint pins, edit whitelists, view projections. first draft exists: [docs/constraint-graph.md](docs/constraint-graph.md). the format is the product; get it wrong and everything downstream is redraw with extra steps.
 
 **phase 1 — one shelf, hand-authored.**
 hand-build the shelving unit: svg per view (front, side, top, iso) + its constraint graph + the edit ops (`insert_tier`, `remove_tier`, `stretch`, `recolor`, `rotate`, `swap_view`). no generation yet. prove that surgical edits keep identity and that views stay consistent after every op. ship the right-click context menu demo.
