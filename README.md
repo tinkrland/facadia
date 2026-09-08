@@ -1,6 +1,6 @@
-# svgery
+# facadia
 
-svg + surgery. procedural generative manipulation of svgs by rewriting the drawing in place under a fixed constraint graph: what may move, what must stay, what ratios lock. not paper.js-style remaking the whole picture every frame.
+svg + surgery. procedural generative manipulation of svgs — now pointed at buildings: switchable typologies, cities, eras, and conditions that edit a facade in place instead of regenerating it. architecture spec: [docs/facadia-architecture.md](docs/facadia-architecture.md). portable rule tables: [rules/](rules/) by rewriting the drawing in place under a fixed constraint graph: what may move, what must stay, what ratios lock. not paper.js-style remaking the whole picture every frame.
 
 or simply put, we think stuffing a canvas with a fresh pile of paths every frame doesn't make the drawing smarter. **keep the svg, change it under rules.** the constraint graph is the product; the renderer is just the mouth.
 
@@ -86,3 +86,10 @@ when does in-place beat redraw? define metrics before building anything fancy: n
 **minimax / bge — drafting + matching.** minimax drafts graphs from drawings (cheap drafting model we already trust); bge-small (pinned, local — the same model substrate calibrated) for drawing-to-drawing similarity when matching "same object, different view". bank the other llm credits unless a step truly needs them.
 
 **stays local + deterministic:** the renderer (svg in the browser) and the constraint checker (pure code). one rule worth keeping: the llm drafts graphs and suggests edits, but *never executes them*. execution is deterministic code over the graph. that's what makes it surgery and not vibes.
+
+
+---
+
+## facadia
+
+same engine, new subject: buildings instead of shelves. the architecture system is a **style-layer model** — typology × city × era × condition are stacked rule tables (`rules/`, plain json, the portable backend) that weight ops and constrain the graph. switching a city is one op that diff-walks subsystems; the building keeps its ids, floors, seed, and hand-edits. see [docs/facadia-architecture.md](docs/facadia-architecture.md).

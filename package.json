@@ -1,7 +1,7 @@
 {
-  "name": "@svgery/core",
+  "name": "@facadia/core",
   "version": "0.1.0",
-  "description": "in-place svg mutation under a fixed constraint graph \u2014 the core engine",
+  "description": "in-place svg mutation under a fixed constraint graph \u2014 the procedural facade architecture engine for nocturne views",
   "type": "module",
   "main": "src/index.ts",
   "scripts": {

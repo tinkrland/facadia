@@ -1,0 +1,15 @@
+{
+  "$comment": "typology dna — cottage. graph-side defaults + weights over city vocabulary",
+  "id": "cottage",
+  "massing": {
+    "floors": { "range": [1, 2], "weight": 1 },
+    "width": { "range": [0.3, 0.6], "weight": 1 },
+    "verticality": { "range": [0.2, 0.5], "weight": 1 }
+  },
+  "roof": { "gable": { "weight": 4 }, "hip": { "weight": 2 }, "mansard": { "weight": 0.15 }, "flat": { "weight": 0.15 } },
+  "chimney": { "require": true },
+  "ground": { "setback": { "range": [1.0, 2.0], "weight": 1 }, "front_garden": { "weight": 4 }, "stoop": { "weight": 0.15 } },
+  "ornament": { "density": { "range": [0.0, 0.5], "weight": 1 } },
+  "attachments": { "extension": { "weight": 2 }, "conservatory": { "weight": 2 }, "garage": { "weight": 0.5 } },
+  "fire_escape": { "forbid": true }
+}

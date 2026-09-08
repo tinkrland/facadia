@@ -1,0 +1,7 @@
+{
+  "id": "victorian",
+  "ornament": { "density": { "range": [0.5, 0.9], "weight": 1 } },
+  "details": { "cornice": { "weight": 4 }, "brackets": { "weight": 4 }, "keystones": { "weight": 3 }, "string_courses": { "weight": 3 }, "ironwork": { "weight": 3 } },
+  "windows": { "sash": { "weight": 4 }, "arched": { "weight": 3 }, "stained_glass": { "weight": 2 } },
+  "roof": { "mansard": { "weight": 2 }, "dormers": { "weight": 4 }, "chimney": { "weight": 4 } }
+}
