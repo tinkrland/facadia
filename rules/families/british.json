@@ -1,0 +1,207 @@
+{
+  "$comment": "vernacular family \u2014 british. generalized from the london + dublin city specs in the concept guide; cities layer their deltas on top via extends.",
+  "id": "british",
+  "typologies": {
+    "terraced_house": {
+      "weight": 4
+    },
+    "cottage": {
+      "weight": 3
+    },
+    "semi_detached": {
+      "weight": 3
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "pub": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 1
+    },
+    "stepped_gable": {
+      "forbid": true
+    },
+    "sawtooth": {
+      "weight": 0.15
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "require": true
+    },
+    "dormer": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 1
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 5
+    },
+    "bay": {
+      "weight": 3
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "oriel": {
+      "weight": 1
+    },
+    "french": {
+      "weight": 0.15
+    },
+    "shop_window": {
+      "weight": 1
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "yellow_stock_brick": {
+      "weight": 3
+    },
+    "render": {
+      "weight": 2
+    },
+    "stone": {
+      "weight": 2
+    },
+    "painted_brick": {
+      "weight": 2
+    },
+    "clapboard": {
+      "weight": 0.15
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "half_timber": {
+      "weight": 1
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 3
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 2
+    },
+    "porch": {
+      "weight": 1
+    },
+    "arched": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "cornice": {
+      "weight": 3
+    },
+    "brick_arches": {
+      "weight": 3
+    },
+    "iron_railings": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 2
+    },
+    "window_surrounds": {
+      "weight": 2
+    },
+    "shutters": {
+      "weight": 0.15
+    },
+    "fire_escape": {
+      "weight": 0.15
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 3
+    },
+    "stoop_steps": {
+      "weight": 3
+    },
+    "railings": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 2
+    },
+    "hedge": {
+      "weight": 2
+    },
+    "areaway": {
+      "weight": 1
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 2
+    },
+    "ivy": {
+      "weight": 2
+    },
+    "hedge": {
+      "weight": 2
+    },
+    "potted_plants": {
+      "weight": 2
+    },
+    "climbing_rose": {
+      "weight": 1
+    },
+    "wisteria": {
+      "weight": 1
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 4
+    },
+    "clay_tile": {
+      "weight": 3
+    },
+    "lead": {
+      "weight": 1
+    }
+  }
+}

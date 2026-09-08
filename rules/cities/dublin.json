@@ -1,0 +1,83 @@
+{
+  "$comment": "city \u2014 dublin. british family, georgian bias, and the coloured door is the tell.",
+  "id": "dublin",
+  "extends": [
+    "british"
+  ],
+  "typologies": {
+    "terraced_house": {
+      "weight": 2
+    },
+    "georgian_townhouse": {
+      "weight": 4
+    },
+    "cottage": {
+      "weight": 1.5
+    },
+    "pub": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 1.5
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 1.5
+    },
+    "hip": {
+      "weight": 1.5
+    },
+    "mansard": {
+      "weight": 0.5
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 2
+    },
+    "bay": {
+      "weight": 0.6
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 1.5
+    },
+    "render": {
+      "weight": 2
+    },
+    "stone": {
+      "weight": 1.5
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "coloured_door": {
+      "weight": 5
+    },
+    "fanlight": {
+      "weight": 4
+    },
+    "iron_railings": {
+      "weight": 1.5
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 1.5
+    },
+    "areaway": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 4
+    }
+  }
+}

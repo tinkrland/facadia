@@ -1,9 +1,53 @@
 {
+  "$comment": "city \u2014 amsterdam. dutch family; the canal belt narrows the frontage further and puts bicycles on every ground interface.",
   "id": "amsterdam",
-  "typologies": { "canal_house": { "weight": 5 }, "townhouse": { "weight": 4 }, "shop_house": { "weight": 3 }, "brownstone": { "forbid": true }, "tenement": { "forbid": true } },
-  "roof": { "stepped_gable": { "weight": 4 }, "bell_gable": { "weight": 4 }, "neck_gable": { "weight": 3 }, "gable": { "weight": 2 }, "flat": { "weight": 1 }, "hip": { "weight": 0.15 } },
-  "windows": { "very_tall": { "weight": 5 }, "large_panes": { "weight": 4 }, "symmetrical": { "require": true }, "sash": { "weight": 2 } },
-  "facade": { "brick": { "weight": 5 }, "painted_wood": { "weight": 3 }, "stone_trim": { "weight": 3 }, "clapboard": { "forbid": true } },
-  "massing": { "narrow_frontage": { "require": true }, "floors": { "range": [3, 5], "weight": 1 } },
-  "details": { "ornate_gables": { "weight": 4 }, "hooks": { "weight": 4 }, "shutters": { "weight": 3 }, "water_tower": { "forbid": true }, "fire_escape": { "forbid": true } }
+  "extends": [
+    "dutch"
+  ],
+  "typologies": {
+    "canal_house": {
+      "weight": 2
+    },
+    "shop_house": {
+      "weight": 1.5
+    }
+  },
+  "roof": {
+    "stepped_gable": {
+      "weight": 1.5
+    },
+    "bell_gable": {
+      "weight": 1.5
+    },
+    "neck_gable": {
+      "weight": 1.5
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 1.5
+    },
+    "large_pane": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "ornate_gable": {
+      "weight": 1.5
+    },
+    "hoist_hook": {
+      "weight": 1.5
+    }
+  },
+  "ground": {
+    "canal_edge": {
+      "weight": 1.5
+    },
+    "bicycles": {
+      "weight": 5
+    },
+    "narrow_pavement": {
+      "weight": 4
+    }
+  }
 }

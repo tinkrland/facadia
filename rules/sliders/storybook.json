@@ -1,0 +1,11 @@
+{ "$comment": "global slider — technical <-> whimsical. the concept guide's key move: identical architecture rules render as an architectural illustration or a cute illustrated town without a second system.",
+  "id": "storybook", "kind": "slider", "default": 0.3,
+  "effects": [
+    { "target": "roof.gable", "at0": 1.0, "at1": 2.5 },
+    { "target": "roof_accessories.chimney", "at0": 1.0, "at1": 3.0 },
+    { "target": "roof_accessories.cupola", "at0": 0.3, "at1": 2.5 },
+    { "target": "roof_accessories.weather_vane", "at0": 0.2, "at1": 3.0 },
+    { "target": "details.shutters", "at0": 0.8, "at1": 2.5 },
+    { "target": "vegetation.*", "at0": 0.6, "at1": 3.0 },
+    { "target": "massing.verticality", "rangeAt0": [0.2, 0.7], "rangeAt1": [0.35, 0.9] }
+  ] }

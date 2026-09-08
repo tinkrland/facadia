@@ -1,0 +1,198 @@
+{
+  "$comment": "vernacular family \u2014 north american urban. generalized from the new york + san francisco specs.",
+  "id": "north_american_urban",
+  "typologies": {
+    "rowhouse": {
+      "weight": 5
+    },
+    "brownstone": {
+      "weight": 4
+    },
+    "townhouse": {
+      "weight": 4
+    },
+    "tenement": {
+      "weight": 3
+    },
+    "walk_up": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "warehouse": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 3
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 5
+    },
+    "mansard": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 2
+    },
+    "sawtooth": {
+      "weight": 2
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "water_tank": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 3
+    },
+    "cornice": {
+      "weight": 3
+    },
+    "dormer": {
+      "weight": 2
+    },
+    "chimney": {
+      "weight": 1
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 5
+    },
+    "sash": {
+      "weight": 3
+    },
+    "bay": {
+      "weight": 3
+    },
+    "bow": {
+      "weight": 2
+    },
+    "storefront_glazing": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 5
+    },
+    "brownstone": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "limestone": {
+      "weight": 3
+    },
+    "clapboard": {
+      "weight": 2
+    },
+    "cast_iron": {
+      "weight": 2
+    },
+    "stucco": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "stoop": {
+      "weight": 5
+    },
+    "raised": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 2
+    },
+    "basement_entrance": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "fire_escape": {
+      "weight": 4
+    },
+    "iron_railings": {
+      "weight": 4
+    },
+    "bracketed_cornice": {
+      "weight": 4
+    },
+    "awning": {
+      "weight": 3
+    },
+    "store_sign": {
+      "weight": 3
+    },
+    "ac_unit": {
+      "weight": 3
+    },
+    "juliet_balcony": {
+      "weight": 2
+    },
+    "cellar_doors": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 5
+    },
+    "stoop_steps": {
+      "weight": 4
+    },
+    "areaway": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 3
+    },
+    "window_box": {
+      "weight": 2
+    },
+    "street_tree": {
+      "weight": 3
+    },
+    "ivy": {
+      "weight": 1
+    }
+  },
+  "roof_material": {
+    "tar": {
+      "weight": 4
+    },
+    "slate": {
+      "weight": 3
+    },
+    "asphalt_shingle": {
+      "weight": 3
+    }
+  }
+}

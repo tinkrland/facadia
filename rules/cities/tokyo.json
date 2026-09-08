@@ -1,0 +1,79 @@
+{
+  "$comment": "city \u2014 tokyo. japanese family; mixed-use ground floors, very narrow lots, and the utility-wire clutter is not decoration, it is the skyline. vocabulary NOT yet glossary-verified (see docs research open items).",
+  "id": "tokyo",
+  "extends": [
+    "japanese"
+  ],
+  "typologies": {
+    "small_apartment": {
+      "weight": 2
+    },
+    "shop_house": {
+      "weight": 2
+    },
+    "modern_townhouse": {
+      "weight": 2
+    },
+    "detached_house": {
+      "weight": 1.2
+    },
+    "machiya": {
+      "weight": 0.5
+    }
+  },
+  "massing": {
+    "width": {
+      "range": [
+        0.15,
+        0.4
+      ]
+    },
+    "floors": {
+      "range": [
+        2,
+        5
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 2
+    },
+    "tile_gable": {
+      "weight": 0.8
+    }
+  },
+  "facade": {
+    "concrete": {
+      "weight": 2
+    },
+    "metal": {
+      "weight": 2
+    },
+    "tile": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "utility_wires": {
+      "weight": 1.5
+    },
+    "ac_unit": {
+      "weight": 1.5
+    },
+    "signage": {
+      "weight": 2
+    },
+    "vending_machine": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 1.5
+    },
+    "bicycles": {
+      "weight": 4
+    }
+  }
+}

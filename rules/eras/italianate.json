@@ -1,9 +1,54 @@
 {
-  "$comment": "sourced: thebrownstoneboys field guide + NYC LPC glossary — the 'classic brownstone' era",
+  "$comment": "sourced: thebrownstoneboys field guide + NYC LPC glossary \u2014 the 'classic brownstone' era",
   "id": "italianate",
-  "ornament": { "density": { "range": [0.6, 0.9], "weight": 1 } },
-  "details": { "bracketed_cornice": { "require": true }, "round_arch_window_tops": { "weight": 4 }, "door_hood": { "weight": 4 }, "keystones": { "weight": 3 } },
-  "ground": { "stoop": { "weight": 4 }, "areaway": { "weight": 3 } },
-  "windows": { "arched": { "weight": 3 }, "tall_rect": { "weight": 3 } },
-  "roof": { "flat": { "weight": 3 }, "low_pitch": { "weight": 2 }, "mansard": { "weight": 0.5 } }
+  "ornament": {
+    "density": {
+      "range": [
+        0.6,
+        0.9
+      ],
+      "weight": 1
+    }
+  },
+  "details": {
+    "bracketed_cornice": {
+      "require": true
+    },
+    "round_arch_window_tops": {
+      "weight": 4
+    },
+    "door_hood": {
+      "weight": 4
+    },
+    "keystones": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "stoop": {
+      "weight": 4
+    },
+    "areaway": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 3
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "low_pitch": {
+      "weight": 2
+    },
+    "mansard": {
+      "weight": 0.5
+    }
+  }
 }

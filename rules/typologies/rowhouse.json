@@ -1,0 +1,62 @@
+{
+  "$comment": "typology dna \u2014 rowhouse. graph-side defaults + weights over city vocabulary.",
+  "id": "rowhouse",
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.2,
+        0.45
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.4
+      ]
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$comment": "typology dna \u2014 detached_house. graph-side defaults + weights over city vocabulary.",
+  "id": "detached_house",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.25,
+        0.55
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.8,
+        2.5
+      ]
+    },
+    "front_garden": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.6
+      ]
+    }
+  },
+  "attachments": {
+    "garage": {
+      "weight": 3
+    },
+    "extension": {
+      "weight": 3
+    }
+  }
+}

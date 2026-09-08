@@ -1,0 +1,57 @@
+{
+  "$comment": "condition layer \u2014 abandoned. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "abandoned",
+  "condition_marks": {
+    "boarded_windows": {
+      "require": true
+    },
+    "broken_glass": {
+      "weight": 4.0
+    },
+    "weeds": {
+      "require": true
+    },
+    "rust": {
+      "weight": 4.0
+    },
+    "paint_peeling": {
+      "weight": 4.0
+    },
+    "graffiti": {
+      "weight": 3.0
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0,
+        0.4
+      ]
+    }
+  },
+  "vegetation": {
+    "weeds": {
+      "require": true
+    },
+    "ivy": {
+      "weight": 4.0
+    },
+    "moss": {
+      "weight": 4.0
+    }
+  },
+  "windows": {
+    "boarded": {
+      "require": true
+    },
+    "broken": {
+      "weight": 4.0
+    },
+    "dark": {
+      "require": true
+    },
+    "lit": {
+      "forbid": true
+    }
+  }
+}

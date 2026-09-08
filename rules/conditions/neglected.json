@@ -1,0 +1,51 @@
+{
+  "$comment": "condition layer \u2014 neglected. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "neglected",
+  "condition_marks": {
+    "paint_peeling": {
+      "weight": 4.0
+    },
+    "rust": {
+      "weight": 3.0
+    },
+    "cracks": {
+      "weight": 4.0
+    },
+    "weeds": {
+      "weight": 4.0
+    },
+    "sagging": {
+      "weight": 3.0
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0,
+        0.6
+      ]
+    }
+  },
+  "vegetation": {
+    "weeds": {
+      "weight": 4.0
+    },
+    "ivy": {
+      "weight": 3.0
+    },
+    "moss": {
+      "weight": 3.0
+    }
+  },
+  "windows": {
+    "boarded": {
+      "weight": 1.0
+    },
+    "broken": {
+      "weight": 1.0
+    },
+    "dark": {
+      "weight": 1.0
+    }
+  }
+}

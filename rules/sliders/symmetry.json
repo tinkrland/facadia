@@ -1,0 +1,10 @@
+{ "$comment": "global slider — asymmetric <-> symmetrical. biases composition and entrance placement.",
+  "id": "symmetry", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "composition.symmetrical", "at0": 0.2, "at1": 4.0 },
+    { "target": "composition.asymmetrical", "at0": 4.0, "at1": 0.2 },
+    { "target": "composition.central_entrance", "at0": 0.5, "at1": 3.0 },
+    { "target": "composition.offset_entrance", "at0": 3.0, "at1": 0.5 },
+    { "target": "composition.irregular_windows", "at0": 3.0, "at1": 0.2 },
+    { "target": "composition.stacked_windows", "at0": 0.5, "at1": 3.0 }
+  ] }

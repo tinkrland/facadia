@@ -1,0 +1,68 @@
+{
+  "$comment": "typology dna \u2014 canal_house. graph-side defaults + weights over city vocabulary.",
+  "id": "canal_house",
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.15,
+        0.35
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        1.0
+      ]
+    }
+  },
+  "roof": {
+    "stepped_gable": {
+      "weight": 4
+    },
+    "bell_gable": {
+      "weight": 4
+    },
+    "neck_gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 0.15
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.1
+      ]
+    },
+    "front_garden": {
+      "forbid": true
+    },
+    "stoop_steps": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.8
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    },
+    "hoist_hook": {
+      "weight": 4
+    }
+  }
+}

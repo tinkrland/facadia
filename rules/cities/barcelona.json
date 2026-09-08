@@ -1,0 +1,86 @@
+{
+  "$comment": "city \u2014 barcelona. mediterranean family with the modernista ornament tier and the eixample's chamfered corner block.",
+  "id": "barcelona",
+  "extends": [
+    "mediterranean"
+  ],
+  "typologies": {
+    "courtyard_apartment": {
+      "weight": 2
+    },
+    "apartment": {
+      "weight": 1.5
+    },
+    "modernist_building": {
+      "weight": 4
+    },
+    "shop_house": {
+      "weight": 1.5
+    },
+    "villa": {
+      "weight": 0.6
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        7
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 1.5
+    }
+  },
+  "windows": {
+    "shuttered": {
+      "weight": 1.5
+    },
+    "french": {
+      "weight": 1.5
+    },
+    "arched": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 1.5
+    },
+    "tile": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 1.5
+    },
+    "ironwork": {
+      "weight": 1.5
+    },
+    "tilework": {
+      "weight": 1.5
+    },
+    "ornamental_facade": {
+      "weight": 2
+    },
+    "chamfered_corner": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 1.5
+    },
+    "plaza": {
+      "weight": 1.5
+    }
+  },
+  "roof_accessories": {
+    "roof_terrace": {
+      "weight": 4
+    }
+  }
+}

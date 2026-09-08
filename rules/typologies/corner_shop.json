@@ -1,0 +1,67 @@
+{
+  "$comment": "typology dna \u2014 corner_shop. graph-side defaults + weights over city vocabulary.",
+  "id": "corner_shop",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.5
+      ]
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "require": true
+    }
+  },
+  "details": {
+    "awning": {
+      "weight": 3
+    },
+    "signage": {
+      "weight": 4
+    }
+  }
+}

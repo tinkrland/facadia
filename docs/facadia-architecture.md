@@ -69,6 +69,33 @@ the invariant that makes this facadia (stated as a test):
 
 the diff-walk is pure: `(graph, old_layers, new_layers) → [set-attr | set-frame | insert | tombstone effects]`. nothing stochastic inside a switch. randomness only enters at *generation time* (seeded sampling from the stacked tables), never at *switch time*.
 
+## 3b. the layer stack, and why cities are presets
+
+the 13 subsystems are parameterized by five stacked layer kinds, resolved in this
+precedence order (later wins a range conflict):
+
+```
+family  <  city  <  era  <  typology  <  condition  <  slider
+```
+
+**family is the new layer.** there is no "london cottage asset" and no "london
+townhouse asset". `london` is a thin delta over `british`; dublin is another delta
+over the same family. the family carries the shared substrate (sash windows, brick,
+chimneys, iron railings) and the city carries only what makes it itself. `extends`
+is stack ordering, not a deep merge — the family sits *beneath* the city, weights
+multiply on top, and both stay independently diffable.
+
+that is what turns `city × era × typology` from a lookup table into a grammar:
+`london + cottage`, `new_england + cottage` and `iceland + cottage` are three
+different buildings from one cottage dna file.
+
+resolution obeys exactly three rules — weights **multiply**, `forbid` is
+**absorbing**, ranges **intersect** — and a genuine contradiction is reported, never
+silently averaged. a new york cottage surfaces the fire-escape conflict (nyc requires
+one, cottage dna forbids one) instead of bolting a fire escape onto a cottage.
+
+format and the full subsystem vocabulary: [rules/schema.md](../rules/schema.md).
+
 ## 4. provenance upgrade for hand edits
 
 an effect emitted with `actor: "human"` (a drag on an anchor) outranks style layers: subsequent `set_city` / `set_era` diff-walks skip human-authored attrs/frames unless the incoming layer makes them violate a ratio lock — in which case the checker rejects the *switch*, it does not silently overwrite the human. the op log already distinguishes actors; this just gives the rule-side a way to respect it.
@@ -95,9 +122,9 @@ rules/
 
 **f2 — vocabulary.** extend roles/ops; building fixture; tests: id stability under set_city, floor insert respacing, tombstoned windows.
 
-**f3 — style layers + diff-walk.** rule schema; 2 typologies × 2 cities × 1 era; the switch-is-one-op test.
+**f3 — style layers + diff-walk.** ✅ landed. `src/rules/` — loader (`extends` expansion), resolver (multiply · absorb · intersect), seeded sampler, and the diff-walk. rule tables: 7 vernacular families, 11 cities, 3 eras, 16 typologies, 8 conditions, 8 sliders. 41 tests, including the switch-is-one-op falsifier. `npm run street` prints recipes and the diff a `set_city` emits.
 
-**f4 — compat engine.** weighted sampling, required-forbidden enforcement, era × condition. incompatibility table from the concept guide becomes plain JSON.
+**f4 — compat engine.** weighted sampling, required-forbidden enforcement and the five compat tiers ✅ landed in f3. what remains: **cross-subsystem** compatibility — compat is currently per-key within one subsystem, so the resolver can still pair a `flat` roof with `asphalt_shingle`, which needs pitch. relationships *between* subsystems (roof form × roof material, typology × entrance) are the next slice.
 
 **f5 — nocturne integration.** window states, night mode as a view/projection, street composition (building nodes under a street graph), export of rules → xano adapter.
 

@@ -1,0 +1,59 @@
+{
+  "$comment": "typology dna \u2014 tenement. graph-side defaults + weights over city vocabulary.",
+  "id": "tenement",
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.1
+      ]
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    },
+    "fire_escape": {
+      "require": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$comment": "typology dna \u2014 apartment. graph-side defaults + weights over city vocabulary.",
+  "id": "apartment",
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        8
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.8
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        1.0
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.6
+      ]
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.6
+      ]
+    }
+  }
+}

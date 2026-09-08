@@ -9,3 +9,4 @@ export * from './views/views';
 export * from './dom/adapter';
 export * from './dom/host';
 export * from './engine';
+export * from './rules/index';

@@ -1,0 +1,62 @@
+{
+  "$comment": "typology dna \u2014 machiya. graph-side defaults + weights over city vocabulary.",
+  "id": "machiya",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.2,
+        0.4
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 4
+    },
+    "tile_hip": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.1
+      ]
+    },
+    "front_garden": {
+      "forbid": true
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.5
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "weight": 3
+    },
+    "wooden_lattice": {
+      "weight": 4
+    }
+  }
+}

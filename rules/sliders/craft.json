@@ -1,0 +1,11 @@
+{ "$comment": "global slider — clean <-> hand-crafted. a renderer-facing slider: it biases hand-made vocabulary and is the graph-side companion to rough.js roughness.",
+  "id": "craft", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "facade.half_timber", "at0": 0.3, "at1": 2.5 },
+    { "target": "facade.painted_timber", "at0": 0.5, "at1": 2.5 },
+    { "target": "facade.wood_siding", "at0": 0.5, "at1": 2.5 },
+    { "target": "facade.concrete", "at0": 2.5, "at1": 0.3 },
+    { "target": "details.carvings", "at0": 0.3, "at1": 3.0 },
+    { "target": "details.ironwork", "at0": 0.6, "at1": 2.5 },
+    { "target": "windows.multi_pane", "at0": 0.6, "at1": 2.5 }
+  ] }

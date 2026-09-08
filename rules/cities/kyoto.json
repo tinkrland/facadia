@@ -1,0 +1,93 @@
+{
+  "$comment": "city \u2014 kyoto. japanese family held at the traditional end: machiya, deep entrances, wooden lattice, tile roofs. vocabulary NOT yet glossary-verified.",
+  "id": "kyoto",
+  "extends": [
+    "japanese"
+  ],
+  "typologies": {
+    "machiya": {
+      "weight": 3
+    },
+    "traditional_townhouse": {
+      "weight": 4
+    },
+    "small_shop": {
+      "weight": 3
+    },
+    "detached_house": {
+      "weight": 1.2
+    },
+    "modern_townhouse": {
+      "weight": 0.5
+    },
+    "small_apartment": {
+      "weight": 0.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    }
+  },
+  "roof": {
+    "tile_hip": {
+      "weight": 2
+    },
+    "tile_gable": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 0.3
+    }
+  },
+  "windows": {
+    "lattice_screen": {
+      "weight": 2
+    },
+    "sliding": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "wood_siding": {
+      "weight": 2
+    },
+    "plaster": {
+      "weight": 1.5
+    },
+    "concrete": {
+      "weight": 0.3
+    },
+    "metal": {
+      "weight": 0.3
+    }
+  },
+  "details": {
+    "wooden_lattice": {
+      "weight": 2
+    },
+    "noren": {
+      "weight": 2
+    },
+    "engawa": {
+      "weight": 2
+    },
+    "utility_wires": {
+      "weight": 0.6
+    },
+    "vending_machine": {
+      "weight": 0.5
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 2
+    },
+    "narrow_lot": {
+      "require": true
+    }
+  }
+}

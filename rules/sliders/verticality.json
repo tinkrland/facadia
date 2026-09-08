@@ -1,0 +1,8 @@
+{ "$comment": "global slider — horizontal <-> vertical emphasis. narrows the frontage and adds floors.",
+  "id": "verticality", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "massing.verticality", "rangeAt0": [0.1, 0.4], "rangeAt1": [0.6, 1.0] },
+    { "target": "massing.width", "rangeAt0": [0.5, 1.0], "rangeAt1": [0.15, 0.5] },
+    { "target": "massing.floors", "rangeAt0": [1, 3], "rangeAt1": [3, 7] },
+    { "target": "windows.tall_rect", "at0": 0.6, "at1": 2.5 }
+  ] }

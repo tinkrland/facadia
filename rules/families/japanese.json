@@ -1,0 +1,195 @@
+{
+  "$comment": "vernacular family \u2014 japanese. generalized from the tokyo + kyoto specs. FLAGGED: this vocabulary comes from the concept guide only and has NOT been cross-checked against a preservation-glossary-equivalent source the way nyc was \u2014 see docs/architectural-vocabulary-research.md open items before treating machiya/engawa terms as canonical.",
+  "id": "japanese",
+  "typologies": {
+    "machiya": {
+      "weight": 5
+    },
+    "detached_house": {
+      "weight": 4
+    },
+    "small_apartment": {
+      "weight": 4
+    },
+    "shop_house": {
+      "weight": 4
+    },
+    "modern_townhouse": {
+      "weight": 3
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "cottage": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "tile_hip": {
+      "weight": 5
+    },
+    "tile_gable": {
+      "weight": 5
+    },
+    "flat": {
+      "weight": 3
+    },
+    "shed": {
+      "weight": 2
+    },
+    "mansard": {
+      "forbid": true
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "require": true
+    },
+    "vent": {
+      "weight": 2
+    },
+    "antenna": {
+      "weight": 3
+    },
+    "water_tank": {
+      "weight": 2
+    },
+    "chimney": {
+      "weight": 0.15
+    }
+  },
+  "windows": {
+    "lattice_screen": {
+      "weight": 5
+    },
+    "sliding": {
+      "weight": 5
+    },
+    "square": {
+      "weight": 3
+    },
+    "shop_window": {
+      "weight": 3
+    },
+    "sash": {
+      "forbid": true
+    },
+    "bay": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "wood_siding": {
+      "weight": 5
+    },
+    "plaster": {
+      "weight": 4
+    },
+    "tile": {
+      "weight": 3
+    },
+    "concrete": {
+      "weight": 3
+    },
+    "metal": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "red_brick": {
+      "weight": 0.15
+    }
+  },
+  "entrance": {
+    "recessed": {
+      "weight": 5
+    },
+    "at_grade": {
+      "weight": 4
+    },
+    "sliding_door": {
+      "weight": 5
+    },
+    "stoop": {
+      "forbid": true
+    },
+    "porch": {
+      "weight": 0.15
+    }
+  },
+  "details": {
+    "noren": {
+      "weight": 4
+    },
+    "wooden_lattice": {
+      "weight": 5
+    },
+    "signage": {
+      "weight": 4
+    },
+    "utility_wires": {
+      "weight": 5
+    },
+    "ac_unit": {
+      "weight": 4
+    },
+    "awning": {
+      "weight": 3
+    },
+    "engawa": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "weight": 0.15
+    },
+    "water_tower": {
+      "forbid": true
+    },
+    "cornice": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 5
+    },
+    "narrow_lot": {
+      "require": true
+    },
+    "courtyard": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 4
+    },
+    "courtyard_garden": {
+      "weight": 3
+    },
+    "moss": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 5
+    },
+    "metal_roof": {
+      "weight": 2
+    },
+    "slate": {
+      "forbid": true
+    }
+  }
+}

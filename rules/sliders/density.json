@@ -1,0 +1,10 @@
+{ "$comment": "global slider — sparse <-> dense. how tightly the street packs and how much lived-in clutter accumulates.",
+  "id": "density", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "ground.zero_setback", "at0": 0.3, "at1": 4.0 },
+    { "target": "ground.front_garden", "at0": 4.0, "at1": 0.2 },
+    { "target": "ground.setback", "rangeAt0": [0.8, 3.0], "rangeAt1": [0.0, 0.4] },
+    { "target": "utilities.*", "at0": 0.4, "at1": 3.0 },
+    { "target": "details.ac_unit", "at0": 0.4, "at1": 3.0 },
+    { "target": "details.utility_wires", "at0": 0.4, "at1": 3.0 }
+  ] }

@@ -1,0 +1,70 @@
+{
+  "$comment": "typology dna \u2014 cafe. graph-side defaults + weights over city vocabulary.",
+  "id": "cafe",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.55
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.2
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.7
+      ]
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "require": true
+    }
+  },
+  "details": {
+    "awning": {
+      "weight": 4
+    },
+    "signage": {
+      "weight": 4
+    }
+  }
+}

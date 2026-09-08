@@ -1,0 +1,42 @@
+{
+  "$comment": "condition layer \u2014 aged. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "aged",
+  "condition_marks": {
+    "paint_variation": {
+      "weight": 4.0
+    },
+    "minor_cracks": {
+      "weight": 3.0
+    },
+    "weathered_wood": {
+      "weight": 3.0
+    },
+    "uneven_shutters": {
+      "weight": 3.0
+    },
+    "moss": {
+      "weight": 3.0
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.8
+      ]
+    }
+  },
+  "vegetation": {
+    "moss": {
+      "weight": 3.0
+    },
+    "ivy": {
+      "weight": 3.0
+    }
+  },
+  "windows": {
+    "boarded": {
+      "weight": 1.0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$comment": "city \u2014 copenhagen. nordic family; compact attached rows, red tile, colour is the identity.",
+  "id": "copenhagen",
+  "extends": [
+    "nordic"
+  ],
+  "typologies": {
+    "colorful_rowhouse": {
+      "weight": 2
+    },
+    "townhouse": {
+      "weight": 1.5
+    },
+    "courtyard_apartment": {
+      "weight": 1.5
+    },
+    "detached_house": {
+      "weight": 0.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        5
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 1.5
+    },
+    "gable": {
+      "weight": 1.2
+    }
+  },
+  "facade": {
+    "painted_stucco": {
+      "weight": 1.5
+    },
+    "red_brick": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "white_trim": {
+      "weight": 1.5
+    },
+    "coloured_facade": {
+      "weight": 5
+    },
+    "ornamental_door": {
+      "weight": 1.5
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 1.5
+    },
+    "courtyard": {
+      "weight": 1.5
+    },
+    "bicycles": {
+      "weight": 4
+    }
+  },
+  "roof_material": {
+    "red_tile": {
+      "weight": 5
+    }
+  }
+}

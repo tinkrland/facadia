@@ -1,0 +1,62 @@
+{
+  "$comment": "typology dna \u2014 terraced_house. graph-side defaults + weights over city vocabulary.",
+  "id": "terraced_house",
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.2,
+        0.4
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.6
+      ]
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "small_front_garden": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    }
+  }
+}

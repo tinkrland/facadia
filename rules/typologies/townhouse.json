@@ -1,14 +1,14 @@
 {
+  "$comment": "typology dna — townhouse. attached/fire_escape moved under details so every key sits in a subsystem (rules/schema.md).",
   "id": "townhouse",
   "massing": {
-    "floors": { "range": [2, 5], "weight": 1 },
-    "width": { "range": [0.2, 0.5], "weight": 1 },
-    "verticality": { "range": [0.4, 0.8], "weight": 1 }
+    "floors": { "range": [2, 5] },
+    "width": { "range": [0.2, 0.5] },
+    "verticality": { "range": [0.4, 0.8] }
   },
-  "roof": { "gable": { "weight": 2 }, "mansard": { "weight": 2 }, "flat": { "weight": 2 }, "hip": { "weight": 0.5 } },
-  "attached": { "require": true },
-  "ground": { "setback": { "range": [0.0, 0.5], "weight": 1 }, "stoop": { "weight": 3 }, "front_garden": { "weight": 0.15 } },
-  "ornament": { "density": { "range": [0.2, 0.9], "weight": 1 } },
+  "roof": { "gable": { "weight": 3 }, "mansard": { "weight": 3 }, "flat": { "weight": 3 }, "hip": { "weight": 1 } },
+  "ground": { "setback": { "range": [0.0, 0.5] }, "stoop": { "weight": 4 }, "front_garden": { "weight": 0.15 } },
+  "ornament": { "density": { "range": [0.2, 0.9] } },
   "windows": { "stacked": { "require": true } },
-  "fire_escape": { "weight": 0.15 }
+  "details": { "attached": { "require": true }, "fire_escape": { "weight": 0.15 } }
 }

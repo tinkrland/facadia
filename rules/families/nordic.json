@@ -1,0 +1,192 @@
+{
+  "$comment": "vernacular family \u2014 nordic. generalized from the copenhagen + iceland specs; colour and timber are the identity, ornament stays low.",
+  "id": "nordic",
+  "typologies": {
+    "townhouse": {
+      "weight": 4
+    },
+    "colorful_rowhouse": {
+      "weight": 4
+    },
+    "courtyard_apartment": {
+      "weight": 3
+    },
+    "cottage": {
+      "weight": 3
+    },
+    "detached_house": {
+      "weight": 3
+    },
+    "farmhouse": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 5
+    },
+    "mansard": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 2
+    },
+    "shed": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 1
+    },
+    "stepped_gable": {
+      "weight": 0.15
+    },
+    "sawtooth": {
+      "weight": 0.15
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "weight": 4
+    },
+    "dormer": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "multi_pane": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 3
+    },
+    "square": {
+      "weight": 3
+    },
+    "sash": {
+      "weight": 1
+    },
+    "bay": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "painted_stucco": {
+      "weight": 5
+    },
+    "painted_timber": {
+      "weight": 4
+    },
+    "red_brick": {
+      "weight": 3
+    },
+    "corrugated_metal": {
+      "weight": 3
+    },
+    "concrete": {
+      "weight": 2
+    },
+    "stone": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "raised": {
+      "weight": 3
+    },
+    "porch": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 2
+    },
+    "stoop": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "white_trim": {
+      "weight": 5
+    },
+    "ornamental_door": {
+      "weight": 3
+    },
+    "shutters": {
+      "weight": 2
+    },
+    "cornice": {
+      "weight": 1
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "gravel": {
+      "weight": 2
+    },
+    "grass_verge": {
+      "weight": 2
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 2
+    },
+    "hedge": {
+      "weight": 2
+    },
+    "moss": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "red_tile": {
+      "weight": 4
+    },
+    "metal_roof": {
+      "weight": 3
+    },
+    "slate": {
+      "weight": 2
+    }
+  }
+}

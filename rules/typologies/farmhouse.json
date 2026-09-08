@@ -1,0 +1,59 @@
+{
+  "$comment": "typology dna \u2014 farmhouse. graph-side defaults + weights over city vocabulary.",
+  "id": "farmhouse",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.2,
+        0.45
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        1.5,
+        3.0
+      ]
+    },
+    "front_garden": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0,
+        0.4
+      ]
+    }
+  },
+  "attachments": {
+    "barn": {
+      "weight": 3
+    },
+    "extension": {
+      "weight": 3
+    }
+  }
+}

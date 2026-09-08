@@ -1,10 +1,61 @@
 {
-  "$comment": "city layer — london. weights over subsystem vocabulary",
+  "$comment": "city \u2014 london. a thin delta over the british family: what london does that britain generally does not.",
   "id": "london",
-  "typologies": { "terraced_house": { "weight": 4 }, "cottage": { "weight": 3 }, "semi_detached": { "weight": 3 }, "townhouse": { "weight": 3 }, "mews": { "weight": 2 }, "pub": { "weight": 2 }, "brownstone": { "forbid": true } },
-  "roof": { "gable": { "weight": 4 }, "mansard": { "weight": 3 }, "hip": { "weight": 2 }, "flat": { "weight": 2 }, "sawtooth": { "forbid": true } },
-  "windows": { "sash": { "weight": 5 }, "bay": { "weight": 3 }, "multi_pane": { "weight": 3 }, "oriel": { "weight": 2 }, "french": { "weight": 0.15 } },
-  "facade": { "red_brick": { "weight": 4 }, "yellow_stock_brick": { "weight": 4 }, "render": { "weight": 2 }, "stone": { "weight": 1 }, "clapboard": { "weight": 0.15 }, "brownstone": { "forbid": true } },
-  "details": { "cornice": { "weight": 3 }, "brick_arches": { "weight": 4 }, "iron_railings": { "weight": 4 }, "chimney": { "require": true }, "water_tower": { "forbid": true }, "fire_escape": { "weight": 0.15 } },
-  "ground": { "small_front_garden": { "weight": 3 }, "stoop_steps": { "weight": 3 }, "railings": { "weight": 4 }, "zero_setback": { "weight": 2 } }
+  "extends": [
+    "british"
+  ],
+  "typologies": {
+    "terraced_house": {
+      "weight": 2
+    },
+    "mews": {
+      "weight": 2
+    },
+    "council_house": {
+      "weight": 2
+    },
+    "victorian_apartment": {
+      "weight": 2
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 1.5
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 1.5
+    },
+    "bay": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "yellow_stock_brick": {
+      "weight": 2
+    },
+    "render": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "brick_arches": {
+      "weight": 1.5
+    },
+    "iron_railings": {
+      "weight": 1.5
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 1.5
+    },
+    "areaway": {
+      "weight": 2
+    }
+  }
 }

@@ -1,0 +1,122 @@
+{
+  "$comment": "city \u2014 san francisco. north american urban family, but painted timber victorians rather than brick, and the bay window is the tell. hillside is a modifier, not a base assumption.",
+  "id": "san_francisco",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "victorian": {
+      "weight": 5
+    },
+    "edwardian": {
+      "weight": 4
+    },
+    "rowhouse": {
+      "weight": 1.2
+    },
+    "cottage": {
+      "weight": 2
+    },
+    "flat_front_house": {
+      "weight": 3
+    },
+    "brownstone": {
+      "weight": 0.1
+    },
+    "tenement": {
+      "weight": 0.3
+    },
+    "bungalow": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 2
+    },
+    "hip": {
+      "weight": 2
+    },
+    "mansard": {
+      "weight": 1.5
+    },
+    "flat": {
+      "weight": 0.8
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 3
+    },
+    "bow": {
+      "weight": 1.5
+    },
+    "sash": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "painted_wood": {
+      "weight": 5
+    },
+    "clapboard": {
+      "weight": 3
+    },
+    "stucco": {
+      "weight": 3
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "red_brick": {
+      "weight": 0.4
+    }
+  },
+  "entrance": {
+    "raised": {
+      "weight": 1.5
+    },
+    "porch": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "ornamental_trim": {
+      "weight": 5
+    },
+    "decorative_facade": {
+      "weight": 4
+    },
+    "external_stairs": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "weight": 0.5
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 1.2
+    },
+    "stoop_steps": {
+      "weight": 1.5
+    },
+    "hillside_steps": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 2
+    }
+  }
+}

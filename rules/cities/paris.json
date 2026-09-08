@@ -1,0 +1,69 @@
+{
+  "$comment": "city \u2014 paris. french family; the haussmann street wall is continuous and wide, which is the massing difference from a french provincial town.",
+  "id": "paris",
+  "extends": [
+    "french"
+  ],
+  "typologies": {
+    "haussmann_apartment": {
+      "weight": 2
+    },
+    "cafe": {
+      "weight": 1.5
+    },
+    "bakery": {
+      "weight": 1.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        5,
+        7
+      ]
+    },
+    "width": {
+      "range": [
+        0.45,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 1.5
+    }
+  },
+  "roof_accessories": {
+    "zinc_ridge": {
+      "weight": 1.5
+    },
+    "dormer": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "limestone": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 1.5
+    },
+    "ornate_cornice": {
+      "weight": 1.5
+    },
+    "awning": {
+      "weight": 1.5
+    },
+    "signage": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "wide_pavement": {
+      "weight": 1.5
+    }
+  }
+}

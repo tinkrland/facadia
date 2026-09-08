@@ -1,0 +1,42 @@
+{
+  "$comment": "condition layer \u2014 lived_in. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "lived_in",
+  "condition_marks": {
+    "paint_variation": {
+      "weight": 3.0
+    },
+    "minor_wear": {
+      "weight": 3.0
+    },
+    "clutter": {
+      "weight": 3.0
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.15,
+        0.85
+      ]
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 4.0
+    },
+    "window_box": {
+      "weight": 1.0
+    },
+    "ivy": {
+      "weight": 1.0
+    }
+  },
+  "windows": {
+    "curtains": {
+      "weight": 1.0
+    },
+    "boarded": {
+      "forbid": true
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "$comment": "vernacular family \u2014 dutch. generalized from the amsterdam canal-house spec. gable subtypes are the identity; verify against a preservation glossary before extending further (see docs/architectural-vocabulary-research.md open items).",
+  "id": "dutch",
+  "typologies": {
+    "canal_house": {
+      "weight": 5
+    },
+    "townhouse": {
+      "weight": 4
+    },
+    "rowhouse": {
+      "weight": 3
+    },
+    "shop_house": {
+      "weight": 3
+    },
+    "cottage": {
+      "weight": 0.15
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "stepped_gable": {
+      "weight": 5
+    },
+    "bell_gable": {
+      "weight": 4
+    },
+    "neck_gable": {
+      "weight": 4
+    },
+    "spout_gable": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 1
+    },
+    "mansard": {
+      "weight": 0.15
+    },
+    "sawtooth": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "hoist_beam": {
+      "require": true
+    },
+    "dormer": {
+      "weight": 3
+    },
+    "chimney": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 5
+    },
+    "large_pane": {
+      "weight": 4
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "sash": {
+      "weight": 2
+    },
+    "shuttered": {
+      "weight": 2
+    },
+    "bay": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 5
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "stone_trim": {
+      "weight": 3
+    },
+    "render": {
+      "weight": 1
+    },
+    "clapboard": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 3
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "raised": {
+      "weight": 3
+    },
+    "canal_facing": {
+      "weight": 3
+    },
+    "porch": {
+      "weight": 0.15
+    }
+  },
+  "details": {
+    "ornate_gable": {
+      "weight": 5
+    },
+    "hoist_hook": {
+      "weight": 4
+    },
+    "shutters": {
+      "weight": 3
+    },
+    "iron_railings": {
+      "weight": 2
+    },
+    "cornice": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "weight": 0.15
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "require": true
+    },
+    "stoop_steps": {
+      "weight": 3
+    },
+    "areaway": {
+      "weight": 2
+    },
+    "front_garden": {
+      "weight": 0.15
+    },
+    "canal_edge": {
+      "weight": 4
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 3
+    },
+    "ivy": {
+      "weight": 1
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 4
+    },
+    "slate": {
+      "weight": 2
+    }
+  }
+}

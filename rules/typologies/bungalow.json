@@ -1,0 +1,59 @@
+{
+  "$comment": "typology dna \u2014 bungalow. graph-side defaults + weights over city vocabulary.",
+  "id": "bungalow",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.15,
+        0.35
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        1.0,
+        2.5
+      ]
+    },
+    "porch": {
+      "weight": 4
+    },
+    "front_garden": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.5
+      ]
+    }
+  },
+  "attachments": {
+    "garage": {
+      "weight": 3
+    }
+  }
+}

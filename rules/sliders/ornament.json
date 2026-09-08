@@ -1,0 +1,7 @@
+{ "$comment": "global slider — plain <-> ornate. the same london townhouse rules become minimal or storybook-victorian without a second rule system.",
+  "id": "ornament", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "details.*", "at0": 0.2, "at1": 3.0 },
+    { "target": "roof_accessories.*", "at0": 0.5, "at1": 2.0 },
+    { "target": "ornament.density", "rangeAt0": [0.0, 0.15], "rangeAt1": [0.6, 1.0] }
+  ] }

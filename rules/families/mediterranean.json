@@ -1,0 +1,183 @@
+{
+  "$comment": "vernacular family \u2014 mediterranean. generalized from the barcelona spec.",
+  "id": "mediterranean",
+  "typologies": {
+    "townhouse": {
+      "weight": 4
+    },
+    "courtyard_apartment": {
+      "weight": 4
+    },
+    "apartment": {
+      "weight": 4
+    },
+    "villa": {
+      "weight": 3
+    },
+    "shop_house": {
+      "weight": 3
+    },
+    "cafe": {
+      "weight": 3
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 2
+    },
+    "mansard": {
+      "weight": 1
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "roof_terrace": {
+      "weight": 4
+    },
+    "chimney": {
+      "weight": 2
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "shuttered": {
+      "weight": 5
+    },
+    "french": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    },
+    "tall_rect": {
+      "weight": 3
+    },
+    "louvered": {
+      "weight": 3
+    },
+    "sash": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 5
+    },
+    "tile": {
+      "weight": 3
+    },
+    "stone": {
+      "weight": 3
+    },
+    "painted_brick": {
+      "weight": 2
+    },
+    "clapboard": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    },
+    "double": {
+      "weight": 2
+    },
+    "stoop": {
+      "weight": 0.15
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 5
+    },
+    "shutters": {
+      "weight": 5
+    },
+    "ironwork": {
+      "weight": 4
+    },
+    "tilework": {
+      "weight": 4
+    },
+    "ornamental_facade": {
+      "weight": 3
+    },
+    "arched_openings": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 4
+    },
+    "courtyard": {
+      "weight": 4
+    },
+    "plaza": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 4
+    },
+    "balcony_planter": {
+      "weight": 4
+    },
+    "vine": {
+      "weight": 3
+    },
+    "window_box": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 5
+    },
+    "terracotta": {
+      "weight": 4
+    }
+  }
+}

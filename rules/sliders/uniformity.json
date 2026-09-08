@@ -1,0 +1,7 @@
+{ "$comment": "global slider — eclectic <-> uniform. read by the street generator: at 1 a row shares one recipe, at 0 every building re-rolls.",
+  "id": "uniformity", "kind": "slider", "default": 0.5,
+  "effects": [
+    { "target": "street.repeat_recipe", "at0": 0.1, "at1": 5.0 },
+    { "target": "street.vary_material", "at0": 4.0, "at1": 0.2 },
+    { "target": "street.vary_height", "at0": 4.0, "at1": 0.3 }
+  ] }

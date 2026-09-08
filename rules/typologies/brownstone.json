@@ -1,0 +1,68 @@
+{
+  "$comment": "typology dna \u2014 brownstone. graph-side defaults + weights over city vocabulary.",
+  "id": "brownstone",
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.45
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 0.15
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.2
+      ]
+    },
+    "stoop": {
+      "weight": 4
+    },
+    "areaway": {
+      "weight": 3
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.4,
+        0.9
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    },
+    "bracketed_cornice": {
+      "weight": 4
+    }
+  }
+}

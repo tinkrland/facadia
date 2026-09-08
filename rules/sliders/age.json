@@ -1,0 +1,11 @@
+{ "$comment": "global slider — new <-> ancient. separate from the condition layer: age biases vocabulary, condition applies wear marks.",
+  "id": "age", "kind": "slider", "default": 0.4,
+  "effects": [
+    { "target": "facade.concrete", "at0": 3.0, "at1": 0.2 },
+    { "target": "facade.metal", "at0": 2.5, "at1": 0.2 },
+    { "target": "facade.half_timber", "at0": 0.1, "at1": 3.0 },
+    { "target": "facade.stone", "at0": 0.5, "at1": 2.5 },
+    { "target": "details.*", "at0": 0.6, "at1": 1.6 },
+    { "target": "windows.multi_pane", "at0": 0.4, "at1": 2.5 },
+    { "target": "windows.large_pane", "at0": 2.5, "at1": 0.3 }
+  ] }

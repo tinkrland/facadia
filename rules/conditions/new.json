@@ -1,0 +1,29 @@
+{
+  "$comment": "condition layer \u2014 new. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "new",
+  "condition_marks": {},
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.9
+      ]
+    }
+  },
+  "vegetation": {
+    "ivy": {
+      "forbid": true
+    },
+    "moss": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "boarded": {
+      "forbid": true
+    },
+    "broken": {
+      "forbid": true
+    }
+  }
+}

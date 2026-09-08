@@ -1,0 +1,36 @@
+{
+  "$comment": "condition layer \u2014 historic. wear marks applied across every subsystem, per docs/facadia-architecture.md \u00a72.",
+  "id": "historic",
+  "condition_marks": {
+    "patina": {
+      "weight": 4.0
+    },
+    "weathered_stone": {
+      "weight": 3.0
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.4,
+        1
+      ]
+    }
+  },
+  "vegetation": {
+    "ivy": {
+      "weight": 3.0
+    },
+    "moss": {
+      "weight": 3.0
+    }
+  },
+  "windows": {
+    "boarded": {
+      "forbid": true
+    },
+    "broken": {
+      "forbid": true
+    }
+  }
+}
