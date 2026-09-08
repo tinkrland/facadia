@@ -1,9 +1,106 @@
 {
   "id": "new_york",
-  "typologies": { "brownstone": { "weight": 5 }, "rowhouse": { "weight": 4 }, "tenement": { "weight": 4 }, "walk_up": { "weight": 3 }, "warehouse": { "weight": 2 }, "cottage": { "weight": 0.15 } },
-  "roof": { "flat": { "weight": 5 }, "mansard": { "weight": 2 }, "gable": { "weight": 0.15 }, "sawtooth": { "weight": 2 } },
-  "windows": { "tall_rect": { "weight": 4 }, "bay": { "weight": 2 }, "storefront_glazing": { "weight": 3 }, "sash": { "weight": 2 } },
-  "facade": { "brownstone": { "weight": 5 }, "red_brick": { "weight": 4 }, "painted_brick": { "weight": 3 }, "limestone": { "weight": 2 }, "clapboard": { "forbid": true } },
-  "details": { "fire_escape": { "require": true }, "water_tower": { "weight": 4 }, "stoop": { "weight": 4 }, "cellar_doors": { "weight": 3 }, "chimney": { "weight": 0.5 } },
-  "ground": { "zero_setback": { "require": true }, "front_garden": { "forbid": true }, "stoop": { "weight": 4 } }
+  "typologies": {
+    "brownstone": {
+      "weight": 5
+    },
+    "rowhouse": {
+      "weight": 4
+    },
+    "tenement": {
+      "weight": 4
+    },
+    "walk_up": {
+      "weight": 3
+    },
+    "warehouse": {
+      "weight": 2
+    },
+    "cottage": {
+      "weight": 0.15
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 5
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 0.15
+    },
+    "sawtooth": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 4
+    },
+    "bay": {
+      "weight": 2
+    },
+    "storefront_glazing": {
+      "weight": 3
+    },
+    "sash": {
+      "weight": 2
+    },
+    "bow": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "brownstone": {
+      "weight": 5
+    },
+    "red_brick": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "limestone": {
+      "weight": 2
+    },
+    "clapboard": {
+      "forbid": true
+    }
+  },
+  "details": {
+    "fire_escape": {
+      "require": true
+    },
+    "water_tower": {
+      "weight": 4
+    },
+    "stoop": {
+      "weight": 4
+    },
+    "cellar_doors": {
+      "weight": 3
+    },
+    "chimney": {
+      "weight": 0.5
+    },
+    "juliet_balcony": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    },
+    "stoop": {
+      "weight": 4
+    },
+    "areaway": {
+      "weight": 3
+    }
+  },
+  "$comment": "updated per docs/architectural-vocabulary-research.md: bow\u2260bay, juliet balcony, areaway are sourced nyc-specific terms"
 }
