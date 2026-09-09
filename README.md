@@ -9,19 +9,10 @@ the trick: a building is a **recipe made of architectural parts**, and the place
 that split is the whole idea. keep the two apart and a handful of recipes becomes thousands of buildings.
 
 ## the goal
-<div style="display: flex; align-items: left; gap: 10px; width: 100%;">
-  <div style="flex: 67%;">
-    <p>facadia is a **procedural streetscape engine**, not a building generator. the goal is procedurally generated **front-facing facades** — whole illustrated streets assembled from reusable vector parts (windows, doors, roofs, storefronts, cornices, fire escapes, chimneys, stoops, lamps) under architectural rules. every piece is a component the rules place, never a pixel.</p>
-  </div>
-  
-  <!-- Right Side: Image (40%) -->
-  <div style="flex: 33%; text-align: center;">
-    <img width="500" height="481" alt="image" src="https://github.com/user-attachments/assets/308edbee-1af9-4c69-8446-3b95b21c56aa" />
-
-  </div>
-</div>
-
 facadia is a **procedural streetscape engine**, not a building generator. the goal is procedurally generated **front-facing facades** — whole illustrated streets assembled from reusable vector parts (windows, doors, roofs, storefronts, cornices, fire escapes, chimneys, stoops, lamps) under architectural rules. every piece is a component the rules place, never a pixel.
+
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/40d42505-dcd2-4fb2-babb-136a8cd5bc33" />
+
 
 it doesn't randomize pixels — it randomizes *architecture*. this is not an ai image generator. the wizard never asks "what building do you want?"; it asks "what *place* is this?", and the answer sets the rules that decide how the facades get assembled. the result should feel like drawing a tiny illustrated neighborhood, not rolling dice on a building.
 
