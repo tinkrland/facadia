@@ -12,12 +12,11 @@ that split is the whole idea. keep the two apart and a handful of recipes become
 
 facadia is a **procedural streetscape engine**, not a building generator. the goal is procedurally generated **front-facing facades** aka whole illustrated streets assembled from reusable vector parts (windows, doors, roofs, storefronts, cornices, fire escapes, chimneys, stoops, lamps) under architectural rules. every piece is a component the rules place, never a pixel.
 
-it doesn't randomize pixels — it procedurally builds, not randomly *architecture*. this is not an ai image generator. the wizard never asks "what building do you want?"; it asks "what *place* is this?", and the answer sets the rules that decide how the facades get assembled. the result should feel like drawing a tiny illustrated neighborhood, not rolling dice on a building.
+it doesn't randomize pixels it procedurally builds instead of randomly assigning *architecture*. this is not an ai image generator. the wizard never asks "what building do you want?"; it asks "what *place* is this?", and the answer sets the rules that decide how the facades get assembled. the result should feel like drawing a tiny illustrated neighborhood, not rolling dice on a building.
 
 everything is front elevation; flat, orthographic, no perspective and in a hand-drawn storybook register: clean ink outlines, slightly imperfect lines, cozy proportions, flat muted color. so the facades line up side by side and read as one street, one place.
 
-<img height="190" alt="image" src="https://github.com/user-attachments/assets/3806e88b-82d7-4f7a-9ff9-21735f2efb17" />
-<img width="80%" height="190" alt="image" src="https://github.com/user-attachments/assets/5b298436-12eb-4b52-92b8-4590075a90c6" />
+<img height="185" alt="image" src="https://github.com/user-attachments/assets/3806e88b-82d7-4f7a-9ff9-21735f2efb17" /> <img width="78%" height="185" alt="image" src="https://github.com/user-attachments/assets/5b298436-12eb-4b52-92b8-4590075a90c6" />
 
 
 
