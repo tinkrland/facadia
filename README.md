@@ -16,8 +16,8 @@ it doesn't randomize pixels — it procedurally builds, not randomly *architectu
 
 everything is front elevation; flat, orthographic, no perspective and in a hand-drawn storybook register: clean ink outlines, slightly imperfect lines, cozy proportions, flat muted color. so the facades line up side by side and read as one street, one place.
 
-<img height="196" alt="image" src="https://github.com/user-attachments/assets/3806e88b-82d7-4f7a-9ff9-21735f2efb17" />
-<img width="80%" height="196" alt="image" src="https://github.com/user-attachments/assets/5b298436-12eb-4b52-92b8-4590075a90c6" />
+<img height="190" alt="image" src="https://github.com/user-attachments/assets/3806e88b-82d7-4f7a-9ff9-21735f2efb17" />
+<img width="80%" height="190" alt="image" src="https://github.com/user-attachments/assets/5b298436-12eb-4b52-92b8-4590075a90c6" />
 
 
 
