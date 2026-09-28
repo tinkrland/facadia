@@ -1,13 +1,14 @@
 // portable-backend sync. rules/ is the source of truth; this tool (a) bundles the
 // tables into one portable artifact any host can serve, and (b) mirrors them onto
-// a xano instance and proves the round trip with checksums.
+// a supabase instance and proves the round trip with checksums.
 //
 //   npm run sync -- bundle      -> dist/rules-bundle.json (the portable backend artifact)
-//   npm run sync -- push        -> POST every table to xano ($XANO_BASE/api:rules/upsert)
+//   npm run sync -- push        -> upsert every table to supabase ($SUPABASE_URL/rest/v1/rule_tables)
 //   npm run sync -- verify      -> GET tables back, recompute checksums, diff must be zero
 //
-// env: XANO_BASE (instance root), XANO_JWT (auth token), XANO_GROUP (api group, default "rules")
-// xano is a delivery vehicle — the app must run with xano unreachable (bundled rules).
+// env: SUPABASE_URL (project root, e.g. https://xyz.supabase.co), SUPABASE_SERVICE_KEY
+// (service role key — bypasses RLS; never expose it client-side).
+// supabase is a delivery vehicle — the app must run with supabase unreachable (bundled rules).
 
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
@@ -38,7 +39,7 @@ function canonical(body: unknown): string {
     Array.isArray(v) ? v.map(sort)
     : v && typeof v === 'object'
       ? Object.fromEntries(Object.entries(v as Record<string, unknown>).sort(([a], [b]) => (a < b ? -1 : 1)).map(([k, x]) => [k, sort(x)]))
-    : v;
+      : v;
   return JSON.stringify(sort(body));
 }
 
@@ -74,65 +75,76 @@ export function writeBundle(tables: BundledTable[]): string {
 }
 
 // ---------------------------------------------------------------------------
-// xano mirror. endpoints this expects (create once in the xano UI — see rules/adapters/xano.md):
-//   GET  {XANO_BASE}/api:<group>/all    -> { tables: [{ id, kind, sha, body }] }
-//   POST {XANO_BASE}/api:<group>/upsert body { id, kind, sha, body } -> { ok: true }
+// supabase mirror (PostgREST — no endpoints to author, the table IS the API):
+//   POST {SUPABASE_URL}/rest/v1/rule_tables   body: row array, Prefer: resolution=merge-duplicates
+//   GET  {SUPABASE_URL}/rest/v1/rule_tables?select=kind,id,sha,body
+// table DDL lives in rules/adapters/supabase.md — run once in the SQL editor.
 // ---------------------------------------------------------------------------
 
-function xanoEnv() {
-  const base = process.env.XANO_BASE ?? '';
-  const jwt = process.env.XANO_JWT ?? process.env.JWT_TOKEN ?? '';
-  const group = process.env.XANO_GROUP ?? 'rules';
-  if (!base || !jwt) {
-    console.error('need XANO_BASE and XANO_JWT (or JWT_TOKEN) in env to talk to a xano instance.');
+function supabaseEnv() {
+  const url = process.env.SUPABASE_URL ?? '';
+  const key = process.env.SUPABASE_SERVICE_KEY ?? process.env.SUPABASE_KEY ?? '';
+  if (!url || !key) {
+    console.error('need SUPABASE_URL and SUPABASE_SERVICE_KEY in env to talk to a supabase project.');
     console.error('bundle works offline: `npm run sync -- bundle`.');
     process.exit(1);
   }
-  return { base: base.replace(/\/$/, ''), jwt, group };
+  return { root: url.replace(/\/$/, ''), key };
 }
 
-async function call<T>(path: string, jwt: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(path, {
+async function call<T>(url: string, key: string, init?: RequestInit): Promise<T> {
+  const res = await fetch(url, {
     ...init,
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${jwt}`, ...(init?.headers ?? {}) },
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: key,
+      Authorization: `Bearer ${key}`,
+      ...(init?.headers ?? {}),
+    },
   });
-  if (!res.ok) throw new Error(`${path} -> ${res.status} ${await res.text().catch(() => '')}`.slice(0, 200));
+  if (!res.ok) throw new Error(`${url} -> ${res.status} ${(await res.text().catch(() => '')).slice(0, 200)}`);
   return (await res.json()) as T;
+}
+
+/** row shape in supabase: primary key is "kind:id" so the same table never splits. */
+function row(t: BundledTable) {
+  return { id: `${t.kind}:${t.id}`, kind: t.kind, name: t.id, sha: t.sha, body: t.body };
 }
 
 /** push every table, then verify the round trip. zero-diff or it reports loudly. */
 export async function push(): Promise<void> {
-  const { base, jwt, group } = xanoEnv();
+  const { root, key } = supabaseEnv();
   const tables = collect();
-  let pushed = 0;
-  for (const t of tables) {
-    await call(`${base}/api:${group}/upsert`, jwt, {
-      method: 'POST',
-      body: JSON.stringify(t),
-    });
-    pushed++;
-  }
-  console.log(`pushed ${pushed} tables to ${base}/api:${group}/`);
+  const rows = tables.map(row);
+  // one array upsert; PostgREST handles it atomically-ish per row via merge-duplicates
+  await call(`${root}/rest/v1/rule_tables`, key, {
+    method: 'POST',
+    headers: { Prefer: 'resolution=merge-duplicates' },
+    body: JSON.stringify(rows),
+  });
+  console.log(`pushed ${rows.length} tables to ${root}/rest/v1/rule_tables`);
   await verify();
 }
 
 /** GET everything back, recompute checksums, and demand a zero diff. */
 export async function verify(): Promise<void> {
-  const { base, jwt, group } = xanoEnv();
-  const remote = (await call<{ tables: BundledTable[] }>(`${base}/api:${group}/all`, jwt)).tables ?? [];
+  const { root, key } = supabaseEnv();
+  const params = new URLSearchParams({ select: 'kind,name,sha,body' });
+  const remote: Array<{ kind: string; name: string; sha: string; body: unknown }> =
+    await call(`${root}/rest/v1/rule_tables?${params}`, key);
   const local = new Map(collect().map((t) => [`${t.kind}:${t.id}`, t]));
   const seen = new Set<string>();
   let ok = 0;
   const problems: string[] = [];
   for (const t of remote) {
-    const key = `${t.kind}:${t.id}`;
-    seen.add(key);
-    const mine = local.get(key);
-    if (!mine) problems.push(`remote-only: ${key} (stale on xano — delete it there)`);
-    else if (mine.sha !== t.sha) problems.push(`checksum mismatch: ${key}`);
+    const key2 = `${t.kind}:${t.name}`;
+    seen.add(key2);
+    const mine = local.get(key2);
+    if (!mine) problems.push(`remote-only: ${key2} (stale in supabase — delete it there)`);
+    else if (mine.sha !== t.sha) problems.push(`checksum mismatch: ${key2}`);
     else ok++;
   }
-  for (const key of local.keys()) if (!seen.has(key)) problems.push(`local-only: ${key} (not pushed yet)`);
+  for (const key2 of local.keys()) if (!seen.has(key2)) problems.push(`local-only: ${key2} (not pushed yet)`);
   console.log(`verify: ${ok} ok, ${problems.length} problem(s)`);
   for (const p of problems) console.log(`  ! ${p}`);
   if (problems.length) process.exit(1);
