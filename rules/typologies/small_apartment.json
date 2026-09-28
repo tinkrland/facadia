@@ -1,0 +1,87 @@
+{
+  "$comment": "typology dna \u2014 small apartment. compact multi-family residential building with functional windows, balconies, and utility attachments.",
+  "id": "small_apartment",
+  "kind": "typology",
+  "typologies": {
+    "small_apartment": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.35,
+        0.6
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "sliding": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 3
+    },
+    "square": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    },
+    "bicycles": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  "details": {
+    "ac_unit": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 3
+    },
+    "utility_wires": {
+      "weight": 3
+    }
+  }
+}

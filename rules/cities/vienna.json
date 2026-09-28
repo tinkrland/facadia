@@ -1,0 +1,103 @@
+{
+  "$comment": "city — vienna. central_european family; gründerzeit ringstrasse opulence with grand stucco facades, stone carvings and caryatids, zinc/slate mansards, and tall windows.",
+  "id": "vienna",
+  "kind": "city",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "altbau": {
+      "weight": 5
+    },
+    "courtyard_apartment": {
+      "weight": 3
+    },
+    "cafe": {
+      "weight": 3
+    },
+    "traditional_townhouse": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "zinc": {
+      "weight": 3
+    },
+    "slate": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "cupola": {
+      "weight": 1.5
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 5
+    },
+    "painted_stucco": {
+      "weight": 4
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 5
+    },
+    "arched": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "ornate_cornice": {
+      "weight": 5
+    },
+    "stone_carvings": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 4
+    },
+    "keystones": {
+      "weight": 3
+    },
+    "window_surrounds": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.45,
+        0.85
+      ]
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 3
+    }
+  }
+}

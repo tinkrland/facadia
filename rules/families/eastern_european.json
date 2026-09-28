@@ -1,0 +1,234 @@
+{
+  "$comment": "vernacular family — eastern_european. slavic and russian vernacular substrate: painted plaster, decorative tin cornices, arched window tops, pitched metal roofs, fenced front gardens, and communal apartment DNA.",
+  "id": "eastern_european",
+  "typologies": {
+    "khrushchevka": {
+      "weight": 4
+    },
+    "apartment": {
+      "weight": 4
+    },
+    "tenement": {
+      "weight": 3
+    },
+    "walk_up": {
+      "weight": 3
+    },
+    "cottage": {
+      "weight": 3
+    },
+    "detached_house": {
+      "weight": 3
+    },
+    "rowhouse": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "farmhouse": {
+      "weight": 2
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 2
+    },
+    "steep_gable": {
+      "weight": 2
+    },
+    "stepped_gable": {
+      "forbid": true
+    },
+    "sawtooth": {
+      "weight": 0.15
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "weight": 4
+    },
+    "dormer": {
+      "weight": 3
+    },
+    "antenna": {
+      "weight": 2
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 3
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "shuttered": {
+      "weight": 2
+    },
+    "square": {
+      "weight": 2
+    },
+    "sash": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "painted_plaster": {
+      "weight": 4
+    },
+    "plaster": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 3
+    },
+    "painted_stucco": {
+      "weight": 3
+    },
+    "painted_brick": {
+      "weight": 2
+    },
+    "concrete": {
+      "weight": 2
+    },
+    "wood_siding": {
+      "weight": 2
+    },
+    "painted_timber": {
+      "weight": 2
+    },
+    "red_brick": {
+      "weight": 1
+    },
+    "clapboard": {
+      "weight": 0.15
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    },
+    "porch": {
+      "weight": 3
+    },
+    "raised": {
+      "weight": 2
+    },
+    "recessed": {
+      "weight": 2
+    },
+    "stoop": {
+      "weight": 1
+    }
+  },
+  "details": {
+    "ornate_cornice": {
+      "weight": 4
+    },
+    "window_surrounds": {
+      "weight": 4
+    },
+    "shutters": {
+      "weight": 3
+    },
+    "balcony_rail": {
+      "weight": 2
+    },
+    "bright_paint": {
+      "weight": 2
+    },
+    "iron_railings": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "front_garden": {
+      "weight": 4
+    },
+    "small_front_garden": {
+      "weight": 4
+    },
+    "railings": {
+      "weight": 3
+    },
+    "courtyard": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 2
+    },
+    "grass_verge": {
+      "weight": 2
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 3
+    },
+    "hedge": {
+      "weight": 2
+    },
+    "courtyard_garden": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "metal_roof": {
+      "weight": 4
+    },
+    "zinc": {
+      "weight": 3
+    },
+    "clay_tile": {
+      "weight": 2
+    },
+    "slate": {
+      "weight": 2
+    }
+  }
+}

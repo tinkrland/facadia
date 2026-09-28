@@ -1,0 +1,89 @@
+{
+  "$comment": "city — cambridge. british family; english collegiate and market town of victorian/edwardian gault-brick terraced houses with red-brick string courses, slate gables, canted bays, sash windows, and walled front gardens.",
+  "id": "cambridge",
+  "kind": "city",
+  "extends": [
+    "british"
+  ],
+  "typologies": {
+    "georgian_townhouse": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3.5
+      ]
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "weight": 4
+    }
+  },
+  "facade": {
+    "yellow_stock_brick": {
+      "weight": 5
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "recessed": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 4
+    },
+    "railings": {
+      "weight": 3
+    },
+    "hedge": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "brick_arches": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 3
+    },
+    "fanlight": {
+      "weight": 3
+    },
+    "iron_railings": {
+      "weight": 3
+    },
+    "ivy_wall": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "forbid": true
+    }
+  },
+  "vegetation": {
+    "ivy": {
+      "weight": 4
+    },
+    "wisteria": {
+      "weight": 3
+    },
+    "climbing_rose": {
+      "weight": 3
+    },
+    "hedge": {
+      "weight": 3
+    }
+  }
+}

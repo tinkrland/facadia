@@ -1,0 +1,109 @@
+{
+  "$comment": "city — washington dc. north american urban family; federal and italianate rowhouses with flat lintels, marble or limestone stoops, projecting bay windows, and strict height limits.",
+  "id": "washington_dc",
+  "kind": "city",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "rowhouse": {
+      "weight": 4
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 2
+    },
+    "walk_up": {
+      "weight": 2
+    },
+    "brownstone": {
+      "weight": 0.15
+    },
+    "tenement": {
+      "weight": 0.15
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 1
+    }
+  },
+  "roof_accessories": {
+    "cornice": {
+      "weight": 4
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "brownstone": {
+      "weight": 0.15
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 4
+    },
+    "bay": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "stoop": {
+      "weight": 4
+    },
+    "raised": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "flat_lintel": {
+      "weight": 4
+    },
+    "marble_stoop": {
+      "weight": 4
+    },
+    "iron_railings": {
+      "weight": 3
+    },
+    "bracketed_cornice": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "weight": 0.15
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "roof_material": {
+    "tar": {
+      "weight": 3
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "$comment": "typology dna — tong lau. southern chinese / hong kong multi-story urban tenement shophouse with ground-level retail, deep upper balconies, and high verticality.",
+  "id": "tong_lau",
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    }
+  },
+  "windows": {
+    "balcony_window": {
+      "weight": 4
+    },
+    "shop_window": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "plaster": {
+      "weight": 4
+    },
+    "concrete": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "covered_arcade": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    }
+  },
+  "details": {
+    "overhanging_balcony": {
+      "weight": 4
+    },
+    "vertical_signage": {
+      "weight": 4
+    },
+    "ac_unit": {
+      "weight": 3
+    }
+  }
+}

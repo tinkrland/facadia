@@ -1,0 +1,86 @@
+{
+  "$comment": "typology dna \u2014 traditional townhouse. historic wooden townhouse with tile roof, deep eaves, wooden lattice screens, and sliding doors.",
+  "id": "traditional_townhouse",
+  "kind": "typology",
+  "typologies": {
+    "traditional_townhouse": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.45
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 4
+    },
+    "tile_hip": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "require": true
+    }
+  },
+  "windows": {
+    "lattice_screen": {
+      "require": true
+    },
+    "sliding": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "sliding_door": {
+      "require": true
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "details": {
+    "wooden_lattice": {
+      "require": true
+    },
+    "noren": {
+      "weight": 3
+    },
+    "attached": {
+      "weight": 4
+    }
+  }
+}

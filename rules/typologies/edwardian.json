@@ -1,0 +1,115 @@
+{
+  "$comment": "typology dna \u2014 edwardian. substantial turn-of-the-century townhouse with bay windows, plaster moldings, and raised stoop porch.",
+  "id": "edwardian",
+  "kind": "typology",
+  "typologies": {
+    "edwardian": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "weight": 3
+    },
+    "dormer": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    },
+    "sash": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "stoop": {
+      "weight": 4
+    },
+    "porch": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    },
+    "stoop": {
+      "weight": 4
+    },
+    "small_front_garden": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.4,
+        0.8
+      ]
+    }
+  },
+  "details": {
+    "bracketed_cornice": {
+      "weight": 4
+    },
+    "ornamental_trim": {
+      "weight": 3
+    },
+    "window_surrounds": {
+      "weight": 4
+    },
+    "attached": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "brick": {
+      "weight": 3
+    },
+    "stucco": {
+      "weight": 2
+    }
+  }
+}

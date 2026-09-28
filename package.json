@@ -8,7 +8,9 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "build": "esbuild src/index.ts --bundle --format=esm --outfile=dist/index.js",
-    "street": "esbuild scripts/street.ts --bundle --platform=node --format=esm --outfile=dist/street.mjs --log-level=error && node dist/street.mjs"
+    "street": "esbuild scripts/street.ts --bundle --platform=node --format=esm --outfile=dist/street.mjs --log-level=error && node dist/street.mjs",
+    "sync": "esbuild scripts/sync.ts --bundle --platform=node --format=esm --outfile=dist/sync.mjs --log-level=error && node dist/sync.mjs",
+    "sync:bundle": "esbuild scripts/sync.ts --bundle --platform=node --format=esm --outfile=dist/sync.mjs --log-level=error && node dist/sync.mjs bundle"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

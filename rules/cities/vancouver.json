@@ -1,0 +1,153 @@
+{
+  "$comment": "city — vancouver. north american urban family; West Coast rain-culture with deep overhanging eaves, covered porches, timber craftsman brackets, wood shingles, and glass mid-rises.",
+  "id": "vancouver",
+  "kind": "city",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "bungalow": {
+      "weight": 4
+    },
+    "detached_house": {
+      "weight": 3
+    },
+    "cottage": {
+      "weight": 3
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "walk_up": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "tenement": {
+      "forbid": true
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1.5,
+        4
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "weight": 4
+    },
+    "dormer": {
+      "weight": 3
+    },
+    "chimney": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "clapboard": {
+      "weight": 4
+    },
+    "wood_shingle": {
+      "weight": 4
+    },
+    "glass_curtain_wall": {
+      "weight": 3
+    },
+    "red_brick": {
+      "weight": 1
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "large_glazing": {
+      "weight": 4
+    },
+    "multi_pane": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "covered_porch": {
+      "weight": 4
+    },
+    "porch": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "front_garden": {
+      "weight": 4
+    },
+    "lawn": {
+      "weight": 3
+    },
+    "rain_garden": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 1
+    }
+  },
+  "details": {
+    "timber_brackets": {
+      "weight": 4
+    },
+    "exposed_rafters": {
+      "weight": 4
+    },
+    "veranda": {
+      "weight": 3
+    },
+    "stone_piers": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "vegetation": {
+    "ferns": {
+      "weight": 4
+    },
+    "moss": {
+      "weight": 3
+    },
+    "evergreen_trees": {
+      "weight": 4
+    },
+    "ivy": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "cedar_shingle": {
+      "weight": 4
+    },
+    "metal_standing_seam": {
+      "weight": 2
+    }
+  }
+}

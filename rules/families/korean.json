@@ -1,0 +1,207 @@
+{
+  "$comment": "vernacular family — korean. traditional hanok and urban korean substrate: giwa clay tile roofs, wooden dancheong architectural painting, hanji paper windows, stone base walls, and madang courtyards.",
+  "id": "korean",
+  "typologies": {
+    "hanok": {
+      "weight": 4
+    },
+    "detached_house": {
+      "weight": 4
+    },
+    "walk_up": {
+      "weight": 4
+    },
+    "small_apartment": {
+      "weight": 3
+    },
+    "traditional_townhouse": {
+      "weight": 3
+    },
+    "shop_house": {
+      "weight": 3
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "cottage": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "curved_tile_gable": {
+      "weight": 4
+    },
+    "tile_hip": {
+      "weight": 4
+    },
+    "tile_gable": {
+      "weight": 4
+    },
+    "flat": {
+      "weight": 3
+    },
+    "shed": {
+      "weight": 1
+    },
+    "mansard": {
+      "forbid": true
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "require": true
+    },
+    "rooftop_addition": {
+      "weight": 3
+    },
+    "antenna": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "weight": 2
+    },
+    "chimney": {
+      "weight": 0.15
+    }
+  },
+  "roof_material": {
+    "giwa_tile": {
+      "weight": 4
+    },
+    "clay_tile": {
+      "weight": 3
+    },
+    "metal_roof": {
+      "weight": 2
+    },
+    "slate": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "hanji_screen": {
+      "weight": 4
+    },
+    "wooden_lattice": {
+      "weight": 4
+    },
+    "sliding": {
+      "weight": 4
+    },
+    "square": {
+      "weight": 3
+    },
+    "sash": {
+      "forbid": true
+    },
+    "bay": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "wooden_dancheong": {
+      "weight": 4
+    },
+    "stone_base_wall": {
+      "weight": 4
+    },
+    "wood_siding": {
+      "weight": 3
+    },
+    "plaster": {
+      "weight": 3
+    },
+    "concrete": {
+      "weight": 3
+    },
+    "brick": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "wooden_gate": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    },
+    "sliding_door": {
+      "weight": 3
+    },
+    "stoop": {
+      "forbid": true
+    }
+  },
+  "details": {
+    "dancheong_woodwork": {
+      "weight": 4
+    },
+    "wooden_lattice": {
+      "weight": 4
+    },
+    "stone_base": {
+      "weight": 4
+    },
+    "ac_unit": {
+      "weight": 4
+    },
+    "utility_wires": {
+      "weight": 4
+    },
+    "signage": {
+      "weight": 3
+    },
+    "cornice": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    },
+    "fire_escape": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "madang_courtyard": {
+      "weight": 4
+    },
+    "courtyard": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "stone_wall_perimeter": {
+      "weight": 4
+    },
+    "front_garden": {
+      "weight": 1
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 4
+    },
+    "courtyard_garden": {
+      "weight": 3
+    },
+    "persimmon_tree": {
+      "weight": 3
+    }
+  }
+}

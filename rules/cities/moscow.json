@@ -1,0 +1,105 @@
+{
+  "$comment": "city — moscow. eastern_european family; soviet-era khrushchevka blocks and stalinist vertical massing on grand avenues, juxtaposed with wooden izba pockets and painted plaster.",
+  "id": "moscow",
+  "kind": "city",
+  "extends": [
+    "eastern_european"
+  ],
+  "typologies": {
+    "khrushchevka": {
+      "weight": 5
+    },
+    "tenement": {
+      "weight": 2
+    },
+    "cottage": {
+      "weight": 2
+    },
+    "detached_house": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        9
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.85
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "painted_plaster": {
+      "weight": 5
+    },
+    "concrete": {
+      "weight": 3
+    },
+    "wood_siding": {
+      "weight": 1.5
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 3
+    },
+    "square": {
+      "weight": 3
+    },
+    "tall_rect": {
+      "weight": 3
+    },
+    "casement": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 3
+    },
+    "window_surrounds": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.05,
+        0.35
+      ]
+    }
+  },
+  "ground": {
+    "front_garden": {
+      "weight": 3
+    },
+    "grass_verge": {
+      "weight": 3
+    },
+    "wide_pavement": {
+      "weight": 3
+    }
+  }
+}

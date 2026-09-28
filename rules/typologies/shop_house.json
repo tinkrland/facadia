@@ -1,0 +1,96 @@
+{
+  "$comment": "typology dna \u2014 shop house. urban commercial building with ground shop front, upper residential levels, and zero street setback.",
+  "id": "shop_house",
+  "kind": "typology",
+  "typologies": {
+    "shop_house": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 3
+    },
+    "tile_gable": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "require": true
+    },
+    "casement": {
+      "weight": 3
+    },
+    "sliding": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "require": true
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "details": {
+    "signage": {
+      "weight": 4
+    },
+    "awning": {
+      "weight": 3
+    },
+    "noren": {
+      "weight": 2
+    },
+    "store_sign": {
+      "weight": 3
+    },
+    "attached": {
+      "weight": 4
+    }
+  }
+}

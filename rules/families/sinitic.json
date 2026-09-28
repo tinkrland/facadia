@@ -1,0 +1,231 @@
+{
+  "$comment": "vernacular family — sinitic. chinese urban vernacular substrate: timber and masonry structure, grey/clay brick, tile roofs with upturned eaves, wooden lattice windows, shopfront shelving, and hutong density.",
+  "id": "sinitic",
+  "typologies": {
+    "shop_house": {
+      "weight": 4
+    },
+    "courtyard_apartment": {
+      "weight": 4
+    },
+    "tong_lau": {
+      "weight": 3
+    },
+    "shikumen": {
+      "weight": 3
+    },
+    "traditional_townhouse": {
+      "weight": 3
+    },
+    "small_shop": {
+      "weight": 3
+    },
+    "small_apartment": {
+      "weight": 2
+    },
+    "khrushchevka": {
+      "weight": 0.15
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "cottage": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "upturned_eaves_gable": {
+      "weight": 4
+    },
+    "upturned_eaves_hip": {
+      "weight": 4
+    },
+    "tile_gable": {
+      "weight": 4
+    },
+    "tile_hip": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 3
+    },
+    "shed": {
+      "weight": 1
+    },
+    "mansard": {
+      "forbid": true
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "require": true
+    },
+    "roof_ridge_ornament": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 2
+    },
+    "antenna": {
+      "weight": 3
+    },
+    "water_tank": {
+      "weight": 2
+    },
+    "chimney": {
+      "weight": 0.15
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 4
+    },
+    "grey_tile": {
+      "weight": 4
+    },
+    "metal_roof": {
+      "weight": 1
+    },
+    "slate": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "wooden_lattice": {
+      "weight": 4
+    },
+    "sliding": {
+      "weight": 4
+    },
+    "shop_window": {
+      "weight": 3
+    },
+    "square": {
+      "weight": 3
+    },
+    "balcony_window": {
+      "weight": 3
+    },
+    "sash": {
+      "forbid": true
+    },
+    "bay": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "grey_brick": {
+      "weight": 4
+    },
+    "masonry_timber": {
+      "weight": 4
+    },
+    "plaster": {
+      "weight": 3
+    },
+    "tile": {
+      "weight": 3
+    },
+    "concrete": {
+      "weight": 2
+    },
+    "wood_siding": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "red_brick": {
+      "weight": 1
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 4
+    },
+    "red_lacquered_door": {
+      "weight": 3
+    },
+    "stone_gate": {
+      "weight": 3
+    },
+    "sliding_door": {
+      "weight": 3
+    },
+    "stoop": {
+      "forbid": true
+    }
+  },
+  "details": {
+    "wooden_lattice": {
+      "weight": 4
+    },
+    "shopfront_shelving": {
+      "weight": 4
+    },
+    "signage": {
+      "weight": 4
+    },
+    "vertical_signage": {
+      "weight": 3
+    },
+    "awning": {
+      "weight": 3
+    },
+    "eave_brackets": {
+      "weight": 3
+    },
+    "utility_wires": {
+      "weight": 4
+    },
+    "ac_unit": {
+      "weight": 3
+    },
+    "cornice": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    },
+    "fire_escape": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 4
+    },
+    "hutong_density": {
+      "weight": 4
+    },
+    "courtyard": {
+      "weight": 4
+    },
+    "narrow_lot": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 0.15
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 4
+    },
+    "courtyard_garden": {
+      "weight": 3
+    },
+    "bamboo": {
+      "weight": 3
+    }
+  }
+}

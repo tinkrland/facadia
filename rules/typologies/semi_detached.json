@@ -1,0 +1,111 @@
+{
+  "$comment": "typology dna \u2014 semi detached. British suburban pair of attached houses sharing a central wall with hipped roof and front garden.",
+  "id": "semi_detached",
+  "kind": "typology",
+  "typologies": {
+    "semi_detached": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.35,
+        0.55
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "require": true
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    },
+    "sash": {
+      "weight": 3
+    },
+    "casement": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "porch": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.5,
+        1.5
+      ]
+    },
+    "front_garden": {
+      "weight": 4
+    },
+    "small_front_garden": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    }
+  },
+  "details": {
+    "door_hood": {
+      "weight": 3
+    },
+    "string_courses": {
+      "weight": 2
+    }
+  },
+  "attachments": {
+    "garage": {
+      "weight": 3
+    },
+    "extension": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "render": {
+      "weight": 3
+    },
+    "pebbledash": {
+      "weight": 3
+    }
+  }
+}

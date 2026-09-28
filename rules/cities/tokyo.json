@@ -1,5 +1,5 @@
 {
-  "$comment": "city \u2014 tokyo. japanese family; mixed-use ground floors, very narrow lots, and the utility-wire clutter is not decoration, it is the skyline. vocabulary NOT yet glossary-verified (see docs research open items).",
+  "$comment": "city — tokyo. japanese family; mixed-use ground floors, very narrow lots, and the utility-wire clutter is not decoration, it is the skyline. vocabulary NOT yet glossary-verified (see docs research open items).",
   "id": "tokyo",
   "extends": [
     "japanese"
@@ -45,9 +45,6 @@
   },
   "facade": {
     "concrete": {
-      "weight": 2
-    },
-    "metal": {
       "weight": 2
     },
     "tile": {

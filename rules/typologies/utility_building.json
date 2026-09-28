@@ -1,0 +1,84 @@
+{
+  "$comment": "typology dna \u2014 utility building. utilitarian single or 2-story municipal or industrial structure with minimal ornament.",
+  "id": "utility_building",
+  "kind": "typology",
+  "typologies": {
+    "utility_building": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    },
+    "shed": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "square": {
+      "weight": 4
+    },
+    "boarded": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.1,
+        0.5
+      ]
+    },
+    "gravel": {
+      "weight": 3
+    },
+    "loading_bay": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    }
+  },
+  "details": {
+    "water_tower": {
+      "weight": 2
+    },
+    "ac_unit": {
+      "weight": 3
+    }
+  }
+}

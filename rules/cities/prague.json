@@ -1,0 +1,89 @@
+{
+  "$comment": "city — prague. central_european family; bohemian baroque character with pastel painted stucco, red pantile roofs, sgraffito wall decor, and roof dormers.",
+  "id": "prague",
+  "kind": "city",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "townhouse": {
+      "weight": 4
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "small_shop": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 3
+    }
+  },
+  "roof_material": {
+    "red_tile": {
+      "weight": 5
+    },
+    "clay_tile": {
+      "weight": 4
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 5
+    },
+    "chimney": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "painted_stucco": {
+      "weight": 5
+    }
+  },
+  "windows": {
+    "casement": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "ornate_cornice": {
+      "weight": 4
+    },
+    "keystones": {
+      "weight": 3
+    },
+    "decorative_facade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 4
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$comment": "city — budapest. central_european family; pest apartment houses with ceramic tile ornament, deep inner courtyards, ornate stair-hall entrances, and tiled roofs.",
+  "id": "budapest",
+  "kind": "city",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "courtyard_apartment": {
+      "weight": 5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.85
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 4
+    },
+    "red_tile": {
+      "weight": 4
+    },
+    "slate": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "painted_stucco": {
+      "weight": 4
+    },
+    "tile": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 4
+    },
+    "double": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "tilework": {
+      "weight": 5
+    },
+    "court_wings": {
+      "weight": 4
+    },
+    "ornate_cornice": {
+      "weight": 4
+    },
+    "window_surrounds": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 5
+    }
+  }
+}

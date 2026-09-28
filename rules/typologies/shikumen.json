@@ -1,0 +1,72 @@
+{
+  "$comment": "typology dna — shikumen. shanghai stone-gate laneway house blending western townhouse row structure with traditional chinese courtyard entrance arches.",
+  "id": "shikumen",
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 4
+    }
+  },
+  "facade": {
+    "grey_brick": {
+      "weight": 4
+    },
+    "red_brick": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "stone_gate": {
+      "weight": 5
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.05
+      ]
+    },
+    "zero_setback": {
+      "weight": 4
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "details": {
+    "stone_door_frame": {
+      "weight": 4
+    },
+    "art_deco_accents": {
+      "weight": 3
+    }
+  }
+}

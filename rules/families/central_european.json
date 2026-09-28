@@ -1,0 +1,219 @@
+{
+  "$comment": "vernacular family — central_european. austro-hungarian and german vernacular substrate: rendered brick, tall double windows, slate roofs, cornices, courtyards, and coal chimneys.",
+  "id": "central_european",
+  "typologies": {
+    "altbau": {
+      "weight": 4
+    },
+    "apartment": {
+      "weight": 4
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "tenement": {
+      "weight": 3
+    },
+    "walk_up": {
+      "weight": 2
+    },
+    "cottage": {
+      "weight": 2
+    },
+    "detached_house": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "cafe": {
+      "weight": 2
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 4
+    },
+    "steep_gable": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 1
+    },
+    "stepped_gable": {
+      "weight": 0.15
+    },
+    "sawtooth": {
+      "weight": 0.15
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "require": true
+    },
+    "dormer": {
+      "weight": 4
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 3
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 2
+    },
+    "bay": {
+      "weight": 1
+    },
+    "sash": {
+      "weight": 0.15
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 4
+    },
+    "render": {
+      "weight": 4
+    },
+    "plaster": {
+      "weight": 3
+    },
+    "painted_stucco": {
+      "weight": 3
+    },
+    "red_brick": {
+      "weight": 2
+    },
+    "stone": {
+      "weight": 2
+    },
+    "clapboard": {
+      "weight": 0.15
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 3
+    },
+    "at_grade": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 3
+    },
+    "double": {
+      "weight": 2
+    },
+    "stoop": {
+      "weight": 1
+    }
+  },
+  "details": {
+    "cornice": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 4
+    },
+    "window_surrounds": {
+      "weight": 4
+    },
+    "shutters": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 3
+    },
+    "ornate_cornice": {
+      "weight": 3
+    },
+    "keystones": {
+      "weight": 2
+    },
+    "iron_railings": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "small_front_garden": {
+      "weight": 2
+    },
+    "wide_pavement": {
+      "weight": 2
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 3
+    },
+    "ivy": {
+      "weight": 2
+    },
+    "courtyard_garden": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 4
+    },
+    "clay_tile": {
+      "weight": 3
+    },
+    "red_tile": {
+      "weight": 3
+    },
+    "zinc": {
+      "weight": 2
+    }
+  }
+}

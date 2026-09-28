@@ -1,0 +1,124 @@
+{
+  "$comment": "city — boston. north american urban family; Federal and Victorian red brick bowfront rowhouses with Quincy granite basements, multi-pane sash, and iron railings.",
+  "id": "boston",
+  "kind": "city",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "rowhouse": {
+      "weight": 4
+    },
+    "brownstone": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 2
+    },
+    "walk_up": {
+      "weight": 2
+    },
+    "tenement": {
+      "weight": 1
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    },
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 1.5
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 4
+    },
+    "chimney": {
+      "weight": 3
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "brownstone": {
+      "weight": 3
+    },
+    "granite": {
+      "weight": 3
+    },
+    "clapboard": {
+      "weight": 0.15
+    }
+  },
+  "windows": {
+    "bow": {
+      "weight": 4
+    },
+    "sash": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 3
+    },
+    "bay": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "stoop": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 2
+    },
+    "zero_setback": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "bowfront": {
+      "weight": 4
+    },
+    "granite_lintel": {
+      "weight": 4
+    },
+    "bracketed_cornice": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "weight": 1
+    },
+    "gas_lamp": {
+      "weight": 3
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 4
+    },
+    "tar": {
+      "weight": 3
+    }
+  }
+}

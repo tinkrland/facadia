@@ -1,5 +1,5 @@
 {
-  "$comment": "city \u2014 san francisco. north american urban family, but painted timber victorians rather than brick, and the bay window is the tell. hillside is a modifier, not a base assumption.",
+  "$comment": "city — san francisco. north american urban family, but painted timber victorians rather than brick, and the bay window is the tell. hillside is a modifier, not a base assumption.",
   "id": "san_francisco",
   "extends": [
     "north_american_urban"
@@ -39,12 +39,6 @@
     }
   },
   "roof": {
-    "gable": {
-      "weight": 2
-    },
-    "hip": {
-      "weight": 2
-    },
     "mansard": {
       "weight": 1.5
     },
@@ -53,9 +47,6 @@
     }
   },
   "windows": {
-    "bay": {
-      "weight": 3
-    },
     "bow": {
       "weight": 1.5
     },

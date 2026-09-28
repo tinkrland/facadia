@@ -1,0 +1,118 @@
+{
+  "$comment": "typology dna \u2014 victorian apartment. grand late Victorian block of mansion flats with brick arches, sash and bay windows, and dormers.",
+  "id": "victorian_apartment",
+  "kind": "typology",
+  "typologies": {
+    "victorian_apartment": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.45,
+        0.8
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 4
+    },
+    "chimney": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 4
+    },
+    "bay": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.3
+      ]
+    },
+    "areaway": {
+      "weight": 3
+    },
+    "railings": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.4,
+        0.8
+      ]
+    }
+  },
+  "details": {
+    "brick_arches": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 4
+    },
+    "window_surrounds": {
+      "weight": 4
+    },
+    "iron_railings": {
+      "weight": 3
+    },
+    "attached": {
+      "require": true
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "brick": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 2
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$comment": "city — shanghai. extends sinitic family: shikumen stone-gate longtang laneway houses with stone door frames and art-deco architectural accents.",
+  "id": "shanghai",
+  "extends": [
+    "sinitic"
+  ],
+  "typologies": {
+    "shikumen": {
+      "weight": 4
+    },
+    "shop_house": {
+      "weight": 3
+    },
+    "traditional_townhouse": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.5
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 3
+    },
+    "grey_brick": {
+      "weight": 3
+    },
+    "plaster": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "stone_gate": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "stone_door_frame": {
+      "weight": 4
+    },
+    "art_deco_accents": {
+      "weight": 3
+    },
+    "stone_lintel": {
+      "weight": 3
+    },
+    "longtang_lane_entry": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 3
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  }
+}

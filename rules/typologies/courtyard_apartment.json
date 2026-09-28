@@ -1,0 +1,106 @@
+{
+  "$comment": "typology dna \u2014 courtyard apartment. multi-family apartment around an inner lightwell with street wall, balconies, and central entrance.",
+  "id": "courtyard_apartment",
+  "kind": "typology",
+  "typologies": {
+    "courtyard_apartment": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        7
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.85
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "roof_terrace": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "french": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.2
+      ]
+    },
+    "courtyard": {
+      "require": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "juliet_balcony": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 3
+    },
+    "shutters": {
+      "weight": 3
+    },
+    "attached": {
+      "require": true
+    }
+  },
+  "vegetation": {
+    "courtyard_garden": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 3
+    }
+  }
+}

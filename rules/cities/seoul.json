@@ -1,0 +1,131 @@
+{
+  "$comment": "city — seoul. korean family; hanok pockets (giwa roofs, madang, ondol floors) against gray walk-up villas with rooftop additions and stair-alley approach. sourced: Korea hanok architecture sources.",
+  "id": "seoul",
+  "kind": "city",
+  "extends": [
+    "korean"
+  ],
+  "typologies": {
+    "small_apartment": {
+      "weight": 4
+    },
+    "hanok": {
+      "weight": 2.5
+    },
+    "shop_house": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        5
+      ]
+    }
+  },
+  "roof": {
+    "curved_tile_gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 3.5
+    },
+    "tile_hip": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "giwa_tile": {
+      "weight": 3
+    },
+    "metal_roof": {
+      "weight": 3
+    },
+    "tar": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "rooftop_addition": {
+      "weight": 4
+    }
+  },
+  "facade": {
+    "brick": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "wood_siding": {
+      "weight": 2
+    },
+    "wooden_dancheong": {
+      "weight": 1.5
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 3
+    },
+    "hanji_screen": {
+      "weight": 1.5
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 3
+    },
+    "wooden_gate": {
+      "weight": 2
+    },
+    "sliding_door": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "madang_courtyard": {
+      "weight": 2
+    },
+    "stair_alley": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "rooftop_additions": {
+      "weight": 4
+    },
+    "vertical_signage": {
+      "weight": 3
+    },
+    "staircase_streets": {
+      "weight": 2
+    },
+    "utility_wires": {
+      "weight": 3
+    },
+    "laundry_lines": {
+      "weight": 2.5
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 3
+    },
+    "persimmon_tree": {
+      "weight": 2
+    }
+  }
+}

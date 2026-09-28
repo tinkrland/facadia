@@ -1,0 +1,124 @@
+{
+  "$comment": "city — chicago. north american urban family; limestone greystones, brick multi-family walk-ups, high raised entrance stoops to main floor with basement unit entries, narrow gangways, and heavy cornices.",
+  "id": "chicago",
+  "kind": "city",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "walk_up": {
+      "weight": 4
+    },
+    "rowhouse": {
+      "weight": 3
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "bungalow": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "brownstone": {
+      "weight": 0.15
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 1.5
+    }
+  },
+  "roof_accessories": {
+    "cornice": {
+      "weight": 4
+    },
+    "parapet": {
+      "weight": 3
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "weight": 1
+    }
+  },
+  "facade": {
+    "limestone": {
+      "weight": 4
+    },
+    "red_brick": {
+      "weight": 4
+    },
+    "buff_brick": {
+      "weight": 3
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "clapboard": {
+      "weight": 0.15
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "stoop": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 3
+    },
+    "areaway": {
+      "weight": 2
+    },
+    "gangway": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "greystone_facade": {
+      "weight": 4
+    },
+    "stone_carvings": {
+      "weight": 3
+    },
+    "iron_railings": {
+      "weight": 3
+    },
+    "fire_escape": {
+      "weight": 3
+    },
+    "rear_porch": {
+      "weight": 4
+    }
+  },
+  "roof_material": {
+    "gravel": {
+      "weight": 3
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$comment": "city — zurich. central_european family; swiss discipline featuring restrained ashlar stone and plaster, functional wooden shutters, bay windows (erker), and minimal ornament.",
+  "id": "zurich",
+  "kind": "city",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "townhouse": {
+      "weight": 4
+    },
+    "altbau": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "small_shop": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "stone": {
+      "weight": 5
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    }
+  },
+  "details": {
+    "cornice": {
+      "weight": 3
+    },
+    "window_surrounds": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.35
+      ]
+    }
+  }
+}

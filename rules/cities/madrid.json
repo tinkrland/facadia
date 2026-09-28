@@ -1,0 +1,78 @@
+{
+  "$comment": "city — madrid. mediterranean family; corralas around patios, red-buff brick with wrought-iron balconies, rolling persiana shutters. sourced: Never Too Small (Casa Rivet corrala), Palacio de la Prensa brick facades.",
+  "id": "madrid",
+  "kind": "city",
+  "extends": [
+    "mediterranean"
+  ],
+  "typologies": {
+    "corner_shop": {
+      "weight": 2
+    },
+    "cafe": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        6
+      ]
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "stone": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "shuttered": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 3
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "wrought_iron_balconies": {
+      "weight": 4
+    },
+    "rolling_shutters": {
+      "weight": 4
+    },
+    "corrala_corridors": {
+      "weight": 3
+    },
+    "shopfront_blinds": {
+      "weight": 3
+    },
+    "signage": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  }
+}

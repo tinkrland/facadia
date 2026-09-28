@@ -1,17 +1,11 @@
 {
-  "$comment": "city/region \u2014 iceland. nordic family pushed to the visually distinct end: corrugated metal, bright paint, near-zero ornament, exposed environment.",
+  "$comment": "city/region — iceland. nordic family pushed to the visually distinct end: corrugated metal, bright paint, near-zero ornament, exposed environment.",
   "id": "iceland",
   "extends": [
     "nordic"
   ],
   "typologies": {
-    "detached_house": {
-      "weight": 3
-    },
     "cottage": {
-      "weight": 2
-    },
-    "farmhouse": {
       "weight": 2
     },
     "small_apartment": {
@@ -52,13 +46,7 @@
     }
   },
   "facade": {
-    "corrugated_metal": {
-      "weight": 3
-    },
     "painted_timber": {
-      "weight": 2
-    },
-    "concrete": {
       "weight": 2
     },
     "red_brick": {
@@ -87,9 +75,6 @@
   "ground": {
     "gravel": {
       "weight": 3
-    },
-    "grass_verge": {
-      "weight": 2
     },
     "rocks": {
       "weight": 3

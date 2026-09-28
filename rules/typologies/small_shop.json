@@ -1,0 +1,103 @@
+{
+  "$comment": "typology dna \u2014 small shop. intimate single or 2-story boutique with glazed storefront or wooden sliding screen and entry curtain.",
+  "id": "small_shop",
+  "kind": "typology",
+  "typologies": {
+    "small_shop": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.45
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "deep_eaves": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "weight": 4
+    },
+    "lattice_screen": {
+      "weight": 3
+    },
+    "sliding": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "sliding_door": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "details": {
+    "noren": {
+      "weight": 4
+    },
+    "store_sign": {
+      "weight": 4
+    },
+    "wooden_lattice": {
+      "weight": 3
+    },
+    "signage": {
+      "weight": 3
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 3
+    }
+  }
+}

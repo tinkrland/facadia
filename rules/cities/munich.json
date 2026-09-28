@@ -1,0 +1,72 @@
+{
+  "$comment": "city — munich. central_european family; bavarian warmth with ochre and yellow render, functional shutters, red tiled gable roofs, and delicate stucco ornament.",
+  "id": "munich",
+  "kind": "city",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "apartment": {
+      "weight": 3
+    },
+    "villa": {
+      "weight": 1.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.45,
+        0.75
+      ]
+    }
+  },
+  "roof_material": {
+    "red_tile": {
+      "weight": 4
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "painted_stucco": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "cornice": {
+      "weight": 3
+    },
+    "window_surrounds": {
+      "weight": 3
+    },
+    "string_courses": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 3
+    },
+    "small_front_garden": {
+      "weight": 1.5
+    }
+  }
+}

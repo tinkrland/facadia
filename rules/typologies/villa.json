@@ -1,0 +1,120 @@
+{
+  "$comment": "typology dna \u2014 villa. Mediterranean detached residence with low clay-tile roof, arched windows, garden setback, and ironwork.",
+  "id": "villa",
+  "kind": "typology",
+  "typologies": {
+    "villa": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 4
+    },
+    "terracotta": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "porch": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.5,
+        2.0
+      ]
+    },
+    "front_garden": {
+      "require": true
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 4
+    },
+    "shutters": {
+      "weight": 3
+    },
+    "ironwork": {
+      "weight": 3
+    }
+  },
+  "vegetation": {
+    "climbing_rose": {
+      "weight": 3
+    },
+    "wisteria": {
+      "weight": 3
+    },
+    "potted_plants": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 4
+    },
+    "painted_stucco": {
+      "weight": 4
+    },
+    "stone": {
+      "weight": 3
+    }
+  }
+}

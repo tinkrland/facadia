@@ -1,0 +1,132 @@
+{
+  "$comment": "city — tel aviv, the White City. mediterranean family flipped bauhaus: flat roofs universal, zero ornament, white plaster, horizontal + staircase (thermoheliodian) windows, pilotis. sourced: Khan Academy White City article, AMIT, UNESCO.",
+  "id": "tel_aviv",
+  "kind": "city",
+  "extends": [
+    "mediterranean"
+  ],
+  "typologies": {
+    "modernist_building": {
+      "weight": 5
+    },
+    "bauhaus_apartment": {
+      "weight": 5
+    },
+    "small_apartment": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 3
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        5
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "require": true
+    },
+    "hip": {
+      "forbid": true
+    },
+    "mansard": {
+      "forbid": true
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "forbid": true
+    },
+    "terracotta": {
+      "forbid": true
+    },
+    "tar": {
+      "weight": 3
+    },
+    "gravel": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "white_plaster": {
+      "weight": 5
+    },
+    "tile": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "ribbon": {
+      "weight": 4
+    },
+    "staircase_window": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 2
+    },
+    "arched": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 3
+    },
+    "arched": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "cantilevered_balconies": {
+      "weight": 4
+    },
+    "horizontal_brisoleil": {
+      "weight": 3
+    },
+    "pilotis": {
+      "weight": 3
+    },
+    "thin_railings": {
+      "weight": 3
+    },
+    "tilework": {
+      "forbid": true
+    },
+    "ornamental_facade": {
+      "forbid": true
+    },
+    "arched_openings": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0,
+        0.15
+      ]
+    }
+  },
+  "vegetation": {
+    "balcony_planter": {
+      "weight": 3
+    },
+    "vine": {
+      "weight": 0.5
+    }
+  }
+}

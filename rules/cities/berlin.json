@@ -1,0 +1,73 @@
+{
+  "$comment": "city \u2014 berlin. central_european family; altbau and mietskasernen density, heavy cornices, stucco facades, and interior court wings.",
+  "id": "berlin",
+  "extends": [
+    "central_european"
+  ],
+  "typologies": {
+    "altbau": {
+      "weight": 5
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "cafe": {
+      "weight": 1.5
+    },
+    "khrushchevka": {
+      "weight": 1
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 1.5
+    },
+    "flat": {
+      "weight": 1.2
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 2
+    },
+    "painted_stucco": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "heavy_cornice": {
+      "weight": 5
+    },
+    "court_wings": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 1.5
+    },
+    "window_surrounds": {
+      "weight": 1.5
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 2
+    },
+    "zero_setback": {
+      "weight": 1.5
+    }
+  }
+}

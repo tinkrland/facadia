@@ -1,0 +1,98 @@
+{
+  "$comment": "city — milan. mediterranean family; austere apartment blocks, case di ringhiera courtyard tenements with communal ballatoi balconies, gray-green/ochre palette, disciplined ornament. sourced: Life in Italy / case di ringhiera guides.",
+  "id": "milan",
+  "extends": [
+    "mediterranean"
+  ],
+  "typologies": {
+    "courtyard_apartment": {
+      "weight": 3
+    },
+    "shop_house": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        7
+      ]
+    }
+  },
+  "facade": {
+    "gray_green_stucco": {
+      "weight": 4
+    },
+    "ochre_stucco": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 3
+    },
+    "stone": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "portico": {
+      "weight": 4
+    },
+    "sofficci": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "ironwork": {
+      "weight": 3
+    },
+    "balcony_rail": {
+      "weight": 3
+    },
+    "disciplined_ornament": {
+      "weight": 3
+    },
+    "string_courses": {
+      "weight": 2
+    },
+    "ringhiera_balconies": {
+      "weight": 4
+    },
+    "enclosed_iron_balconies": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "portico": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.35
+      ]
+    }
+  }
+}

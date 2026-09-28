@@ -1,0 +1,119 @@
+{
+  "$comment": "typology dna — palazzo. grand Italian urban palace/residence block with rusticated ground floor, grand central entrance, and courtyard.",
+  "id": "palazzo",
+  "kind": "typology",
+  "typologies": {
+    "palazzo": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.85
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 4
+    },
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 1
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 4
+    },
+    "shuttered": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 5
+    },
+    "portico": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "stone": {
+      "weight": 4
+    },
+    "travertine": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "courtyard": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "rusticated_ground_floor": {
+      "weight": 5
+    },
+    "heavy_cornice": {
+      "weight": 4
+    },
+    "cornice": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 4
+    },
+    "window_surrounds": {
+      "weight": 3
+    },
+    "attached": {
+      "require": true
+    }
+  }
+}

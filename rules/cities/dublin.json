@@ -1,5 +1,5 @@
 {
-  "$comment": "city \u2014 dublin. british family, georgian bias, and the coloured door is the tell.",
+  "$comment": "city — dublin. british family, georgian bias, and the coloured door is the tell.",
   "id": "dublin",
   "extends": [
     "british"
@@ -13,9 +13,6 @@
     },
     "cottage": {
       "weight": 1.5
-    },
-    "pub": {
-      "weight": 2
     },
     "corner_shop": {
       "weight": 1.5
@@ -44,16 +41,8 @@
     "red_brick": {
       "weight": 1.5
     },
-    "render": {
-      "weight": 2
-    },
     "stone": {
       "weight": 1.5
-    }
-  },
-  "entrance": {
-    "arched": {
-      "weight": 2
     }
   },
   "details": {
@@ -73,11 +62,6 @@
     },
     "areaway": {
       "weight": 2
-    }
-  },
-  "roof_material": {
-    "slate": {
-      "weight": 4
     }
   }
 }

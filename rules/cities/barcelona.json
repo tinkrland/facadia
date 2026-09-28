@@ -1,5 +1,5 @@
 {
-  "$comment": "city \u2014 barcelona. mediterranean family with the modernista ornament tier and the eixample's chamfered corner block.",
+  "$comment": "city — barcelona. mediterranean family with the modernista ornament tier and the eixample's chamfered corner block.",
   "id": "barcelona",
   "extends": [
     "mediterranean"
@@ -76,11 +76,6 @@
     },
     "plaza": {
       "weight": 1.5
-    }
-  },
-  "roof_accessories": {
-    "roof_terrace": {
-      "weight": 4
     }
   }
 }

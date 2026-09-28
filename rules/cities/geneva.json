@@ -1,0 +1,100 @@
+{
+  "$comment": "city — geneva. french family substrate; clean plaster and limestone facades, wrought iron balconies, mansard roofs, and lakefront neoclassical order.",
+  "id": "geneva",
+  "kind": "city",
+  "extends": [
+    "french"
+  ],
+  "typologies": {
+    "haussmann_apartment": {
+      "weight": 3
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "cafe": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.45,
+        0.75
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    }
+  },
+  "roof_material": {
+    "zinc": {
+      "weight": 4
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 4
+    },
+    "chimney": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "plaster": {
+      "weight": 4
+    },
+    "painted_stucco": {
+      "weight": 3
+    },
+    "render": {
+      "weight": 3
+    },
+    "limestone": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "french": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "balcony_rail": {
+      "weight": 4
+    },
+    "ironwork": {
+      "weight": 3
+    },
+    "shutters": {
+      "weight": 3
+    },
+    "cornice": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.15,
+        0.45
+      ]
+    }
+  },
+  "ground": {
+    "wide_pavement": {
+      "weight": 3
+    }
+  }
+}

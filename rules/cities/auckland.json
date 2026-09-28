@@ -1,0 +1,102 @@
+{
+  "$comment": "city — auckland. australasia family; weatherboard villas under corrugated iron, bay windows, picket fences, verandah entries. sourced: NZ villa/bungalow construction histories.",
+  "id": "auckland",
+  "kind": "city",
+  "extends": [
+    "australasia"
+  ],
+  "typologies": {
+    "villa": {
+      "weight": 5
+    },
+    "cottage": {
+      "weight": 2.5
+    },
+    "bungalow": {
+      "weight": 3
+    },
+    "semi_detached": {
+      "weight": 2
+    },
+    "corner_shop": {
+      "weight": 1.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        2
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4.5
+    },
+    "hip": {
+      "weight": 2.5
+    }
+  },
+  "roof_material": {
+    "corrugated_iron": {
+      "weight": 5
+    },
+    "clay_tile": {
+      "weight": 1
+    }
+  },
+  "facade": {
+    "weatherboard": {
+      "weight": 5
+    },
+    "render": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 3.5
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 2.5
+    }
+  },
+  "ground": {
+    "front_garden": {
+      "weight": 4
+    }
+  },
+  "details": {
+    "bullnose_verandah": {
+      "weight": 3.5
+    },
+    "tall_chimney": {
+      "weight": 4
+    },
+    "cast_iron_lacework": {
+      "weight": 1.5
+    },
+    "shutters": {
+      "weight": 1.5
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.5
+      ]
+    }
+  },
+  "vegetation": {
+    "front_garden": {
+      "weight": 4
+    },
+    "palm_tree": {
+      "weight": 2
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$comment": "city — toronto. north american urban family; victorian bay-and-gable architecture with steep slate gables, decorative bargeboard, and red brick with dichromatic detailing.",
+  "id": "toronto",
+  "kind": "city",
+  "extends": [
+    "north_american_urban"
+  ],
+  "typologies": {
+    "rowhouse": {
+      "weight": 4
+    },
+    "detached_house": {
+      "weight": 3
+    },
+    "cottage": {
+      "weight": 2
+    },
+    "walk_up": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3.5
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "flat": {
+      "weight": 1
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 3
+    },
+    "chimney": {
+      "weight": 3
+    },
+    "bargeboard": {
+      "weight": 4
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "yellow_brick": {
+      "weight": 3
+    },
+    "painted_brick": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "clapboard": {
+      "weight": 1
+    }
+  },
+  "windows": {
+    "bay": {
+      "weight": 4
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "raised": {
+      "weight": 3
+    },
+    "porch": {
+      "weight": 3
+    },
+    "recessed": {
+      "weight": 3
+    },
+    "stoop": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 4
+    },
+    "stoop_steps": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 1.5
+    }
+  },
+  "details": {
+    "steep_gable": {
+      "weight": 4
+    },
+    "gingerbread_trim": {
+      "weight": 4
+    },
+    "brick_arches": {
+      "weight": 3
+    },
+    "dichromatic_brickwork": {
+      "weight": 4
+    },
+    "iron_railings": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "weight": 0.15
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 4
+    }
+  }
+}

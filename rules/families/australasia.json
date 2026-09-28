@@ -1,0 +1,198 @@
+{
+  "$comment": "vernacular family — australasia. anglo settler residential substrate in australia and new zealand: iron-lace filigree terrace rows, weatherboard timber, corrugated iron roofing, bullnose verandas, and prominent chimneys.",
+  "id": "australasia",
+  "typologies": {
+    "terraced_house": {
+      "weight": 4
+    },
+    "villa": {
+      "weight": 4
+    },
+    "cottage": {
+      "weight": 4
+    },
+    "townhouse": {
+      "weight": 3
+    },
+    "semi_detached": {
+      "weight": 3
+    },
+    "detached_house": {
+      "weight": 3
+    },
+    "corner_shop": {
+      "weight": 2
+    },
+    "pub": {
+      "weight": 2
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 4
+    },
+    "hip": {
+      "weight": 4
+    },
+    "bullnose_verandah_roof": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    },
+    "mansard": {
+      "weight": 1
+    },
+    "stepped_gable": {
+      "forbid": true
+    }
+  },
+  "roof_accessories": {
+    "tall_chimney": {
+      "require": true
+    },
+    "chimney": {
+      "weight": 4
+    },
+    "dormer": {
+      "weight": 2
+    },
+    "vent": {
+      "weight": 2
+    },
+    "water_tank": {
+      "forbid": true
+    }
+  },
+  "roof_material": {
+    "corrugated_iron": {
+      "weight": 4
+    },
+    "slate": {
+      "weight": 4
+    },
+    "clay_tile": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 4
+    },
+    "bay": {
+      "weight": 4
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 2
+    },
+    "sliding": {
+      "weight": 1
+    }
+  },
+  "facade": {
+    "weatherboard": {
+      "weight": 4
+    },
+    "red_brick": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "render": {
+      "weight": 3
+    },
+    "sandstone": {
+      "weight": 2
+    },
+    "brownstone": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "verandah_entry": {
+      "weight": 4
+    },
+    "stoop": {
+      "weight": 3
+    },
+    "at_grade": {
+      "weight": 3
+    },
+    "arched": {
+      "weight": 2
+    },
+    "recessed": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "iron_lace_filigree": {
+      "weight": 4
+    },
+    "bullnose_verandah": {
+      "weight": 4
+    },
+    "wrought_iron_balcony": {
+      "weight": 4
+    },
+    "cast_iron_lacework": {
+      "weight": 3
+    },
+    "cornice": {
+      "weight": 3
+    },
+    "decorative_parapet": {
+      "weight": 3
+    },
+    "shutters": {
+      "weight": 2
+    },
+    "fire_escape": {
+      "forbid": true
+    },
+    "water_tower": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "verandah": {
+      "weight": 4
+    },
+    "picket_fence": {
+      "weight": 4
+    },
+    "cast_iron_fence": {
+      "weight": 4
+    },
+    "small_front_garden": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 2
+    }
+  },
+  "vegetation": {
+    "potted_plants": {
+      "weight": 3
+    },
+    "front_garden": {
+      "weight": 3
+    },
+    "climbing_rose": {
+      "weight": 2
+    },
+    "jacaranda": {
+      "weight": 2
+    }
+  }
+}

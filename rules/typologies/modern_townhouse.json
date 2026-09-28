@@ -1,0 +1,90 @@
+{
+  "$comment": "typology dna \u2014 modern townhouse. contemporary urban dwelling with flat roof, geometric massing, large pane glazing, and clean facade.",
+  "id": "modern_townhouse",
+  "kind": "typology",
+  "typologies": {
+    "modern_townhouse": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.25,
+        0.45
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "shed": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "large_pane": {
+      "weight": 4
+    },
+    "sliding": {
+      "weight": 3
+    },
+    "square": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "recessed": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.2
+      ]
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.2
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "weight": 2
+    },
+    "ac_unit": {
+      "weight": 3
+    },
+    "utility_wires": {
+      "weight": 2
+    },
+    "ornate_cornice": {
+      "forbid": true
+    }
+  }
+}

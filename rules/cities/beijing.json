@@ -1,0 +1,71 @@
+{
+  "$comment": "city — beijing. extends sinitic family: grey-brick hutong siheyuan courtyards, red-lacquered entrance gates/doors, minimal exterior ornament, and dense low-rise lanes.",
+  "id": "beijing",
+  "extends": [
+    "sinitic"
+  ],
+  "typologies": {
+    "small_shop": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        3
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "roof": {
+    "upturned_eaves_gable": {
+      "weight": 3
+    },
+    "tile_gable": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "masonry_timber": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "red_lacquered_door": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.05,
+        0.3
+      ]
+    }
+  },
+  "details": {
+    "red_lacquered_door": {
+      "weight": 4
+    },
+    "grey_brick_walls": {
+      "weight": 4
+    },
+    "wooden_lattice": {
+      "weight": 3
+    },
+    "hutong_signage": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "zero_setback": {
+      "weight": 3
+    }
+  }
+}

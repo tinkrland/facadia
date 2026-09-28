@@ -1,0 +1,98 @@
+{
+  "$comment": "city — melbourne. australasia family; the world's densest cast-iron filigree (Chatterton Lacework: more than Paris, New Orleans, Sydney, Adelaide), polychrome brick, bullnose verandahs.",
+  "id": "melbourne",
+  "kind": "city",
+  "extends": [
+    "australasia"
+  ],
+  "typologies": {
+    "terraced_house": {
+      "weight": 5
+    },
+    "townhouse": {
+      "weight": 2
+    },
+    "pub": {
+      "weight": 2.5
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        3
+      ]
+    }
+  },
+  "roof": {
+    "bullnose_verandah_roof": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 2.5
+    },
+    "hip": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 3.5
+    },
+    "corrugated_iron": {
+      "weight": 2.5
+    }
+  },
+  "facade": {
+    "polychrome_brick": {
+      "weight": 3.5
+    },
+    "red_brick": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 3
+    },
+    "bay": {
+      "weight": 3.5
+    },
+    "multi_pane": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "cast_iron_fence": {
+      "weight": 4.5
+    },
+    "picket_fence": {
+      "weight": 2
+    },
+    "zero_setback": {
+      "weight": 3.5
+    }
+  },
+  "details": {
+    "cast_iron_lacework": {
+      "weight": 5
+    },
+    "lacework_frieze": {
+      "weight": 4
+    },
+    "cast_iron_columns": {
+      "weight": 3.5
+    },
+    "decorative_parapet": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    }
+  }
+}

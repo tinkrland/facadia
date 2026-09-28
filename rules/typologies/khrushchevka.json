@@ -1,0 +1,87 @@
+{
+  "$comment": "typology dna \u2014 khrushchevka. mid-century soviet residential panel/brick block with minimal ornament and standardized bays.",
+  "id": "khrushchevka",
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.35,
+        0.65
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "low_pitch": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.2,
+        0.6
+      ]
+    },
+    "front_garden": {
+      "weight": 4
+    },
+    "grass_verge": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "weight": 2
+    },
+    "ornate_cornice": {
+      "forbid": true
+    },
+    "window_surrounds": {
+      "forbid": true
+    }
+  },
+  "kind": "typology",
+  "typologies": {
+    "khrushchevka": {
+      "weight": 4
+    }
+  },
+  "facade": {
+    "concrete": {
+      "weight": 4
+    },
+    "red_brick": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "square": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 3
+    }
+  }
+}

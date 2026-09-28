@@ -1,0 +1,94 @@
+{
+  "$comment": "city — dubai. modern_metropolis family; glass towers over a desert floor, minimal street wall, wind-tower heritage nods on the low-rise.",
+  "id": "dubai",
+  "kind": "city",
+  "extends": [
+    "modern_metropolis"
+  ],
+  "typologies": {
+    "apartment": {
+      "weight": 3
+    },
+    "small_apartment": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        5,
+        30
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.7,
+        1
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "require": true
+    }
+  },
+  "facade": {
+    "reflective_glazing": {
+      "weight": 4
+    },
+    "concrete": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "ribbon": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "double": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "weight": 3
+    },
+    "zero_setback": {
+      "weight": 0.5
+    }
+  },
+  "details": {
+    "mashrabiya_screens": {
+      "weight": 3
+    },
+    "wind_tower_reference": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0,
+        0.2
+      ]
+    }
+  },
+  "vegetation": {
+    "palm_trees": {
+      "weight": 4
+    },
+    "desert_landscaping": {
+      "weight": 3
+    },
+    "window_box": {
+      "forbid": true
+    },
+    "vine": {
+      "forbid": true
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$comment": "typology dna \u2014 altbau. central european classic 19th-century apartment house with high ceilings and courtyard wings.",
+  "id": "altbau",
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.75
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    },
+    "gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 1
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0,
+        0.15
+      ]
+    },
+    "courtyard": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.25,
+        0.75
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    },
+    "cornice": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 3
+    }
+  },
+  "kind": "typology",
+  "typologies": {
+    "altbau": {
+      "weight": 4
+    }
+  },
+  "facade": {
+    "stucco": {
+      "weight": 4
+    },
+    "painted_stucco": {
+      "weight": 3
+    },
+    "plaster": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "tall_rect": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 4
+    },
+    "arched": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "clay_tile": {
+      "weight": 3
+    },
+    "zinc": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 3
+    }
+  }
+}

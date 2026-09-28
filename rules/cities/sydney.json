@@ -1,0 +1,93 @@
+{
+  "$comment": "city — sydney. australasia family; 2-storey victorian terraces, cast-iron lacework + palisade fences, brick with slate. sourced: Terrace Ironwork Sydney, wrought iron lace restoration writeups.",
+  "id": "sydney",
+  "kind": "city",
+  "extends": [
+    "australasia"
+  ],
+  "typologies": {
+    "terraced_house": {
+      "weight": 5
+    },
+    "cottage": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "roof": {
+    "hip": {
+      "weight": 2.5
+    },
+    "gable": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "slate": {
+      "weight": 3
+    },
+    "corrugated_iron": {
+      "weight": 2.5
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 3.5
+    },
+    "sandstone": {
+      "weight": 2.5
+    }
+  },
+  "windows": {
+    "sash": {
+      "weight": 3
+    },
+    "bay": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "verandah_entry": {
+      "weight": 3.5
+    }
+  },
+  "ground": {
+    "small_front_garden": {
+      "weight": 2.5
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "cast_iron_lacework": {
+      "weight": 4
+    },
+    "iron_lace_filigree": {
+      "weight": 3
+    },
+    "tall_chimney": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "vegetation": {
+    "front_garden": {
+      "weight": 2.5
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$comment": "city — rome. mediterranean family featuring travertine palazzi with rusticated ground floors, grand arched openings, and an ochre/terracotta palette.",
+  "id": "rome",
+  "extends": [
+    "mediterranean"
+  ],
+  "typologies": {
+    "palazzo": {
+      "weight": 5
+    },
+    "apartment": {
+      "weight": 3
+    },
+    "courtyard_apartment": {
+      "weight": 3
+    },
+    "townhouse": {
+      "weight": 2
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        6
+      ]
+    }
+  },
+  "facade": {
+    "travertine": {
+      "weight": 5
+    },
+    "ochre_stucco": {
+      "weight": 4
+    },
+    "terracotta_stucco": {
+      "weight": 4
+    },
+    "stucco": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 5
+    },
+    "shuttered": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 5
+    },
+    "portico": {
+      "weight": 3
+    }
+  },
+  "details": {
+    "rusticated_ground_floor": {
+      "weight": 5
+    },
+    "heavy_cornice": {
+      "weight": 4
+    },
+    "cornice": {
+      "weight": 4
+    },
+    "arched_openings": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "courtyard": {
+      "weight": 3
+    }
+  },
+  "roof_material": {
+    "terracotta": {
+      "weight": 5
+    },
+    "clay_tile": {
+      "weight": 4
+    }
+  }
+}

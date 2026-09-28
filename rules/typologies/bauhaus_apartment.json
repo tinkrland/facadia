@@ -1,0 +1,107 @@
+{
+  "$comment": "typology dna — bauhaus apartment. white city modernist international style block with clean geometric lines, flat roof, and unornamented smooth render.",
+  "id": "bauhaus_apartment",
+  "kind": "typology",
+  "typologies": {
+    "bauhaus_apartment": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.75
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "require": true
+    }
+  },
+  "windows": {
+    "ribbon": {
+      "weight": 5
+    },
+    "staircase_window": {
+      "weight": 4
+    },
+    "casement": {
+      "weight": 3
+    },
+    "large_pane": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "white_stucco": {
+      "weight": 5
+    },
+    "stucco": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.2
+      ]
+    },
+    "pilotis": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    }
+  },
+  "details": {
+    "thermometer_window": {
+      "weight": 3
+    },
+    "balcony_rail": {
+      "weight": 4
+    },
+    "curved_balcony": {
+      "weight": 4
+    },
+    "cornice": {
+      "forbid": true
+    },
+    "heavy_cornice": {
+      "forbid": true
+    },
+    "string_courses": {
+      "forbid": true
+    }
+  }
+}

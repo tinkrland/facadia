@@ -1,0 +1,112 @@
+{
+  "$comment": "typology dna \u2014 pub. traditional tavern with ground-floor storefront, prominent signage, dark timber trim, and residential upper levels.",
+  "id": "pub",
+  "kind": "typology",
+  "typologies": {
+    "pub": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    },
+    "width": {
+      "range": [
+        0.35,
+        0.65
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    }
+  },
+  "roof": {
+    "gable": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_accessories": {
+    "chimney": {
+      "weight": 4
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "weight": 4
+    },
+    "multi_pane": {
+      "weight": 3
+    },
+    "sash": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "recessed": {
+      "weight": 3
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "signage": {
+      "require": true
+    },
+    "store_sign": {
+      "weight": 4
+    },
+    "awning": {
+      "weight": 3
+    },
+    "attached": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "timber": {
+      "weight": 3
+    },
+    "stucco": {
+      "weight": 3
+    }
+  }
+}

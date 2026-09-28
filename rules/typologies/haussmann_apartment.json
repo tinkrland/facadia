@@ -1,0 +1,114 @@
+{
+  "$comment": "typology dna \u2014 haussmann apartment. Parisian boulevard block with mansard roof, zinc cladding, tall french windows, and wrought iron balconies.",
+  "id": "haussmann_apartment",
+  "kind": "typology",
+  "typologies": {
+    "haussmann_apartment": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        5,
+        7
+      ]
+    },
+    "width": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "require": true
+    }
+  },
+  "roof_material": {
+    "zinc": {
+      "weight": 4
+    },
+    "slate": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 4
+    }
+  },
+  "windows": {
+    "french": {
+      "require": true
+    },
+    "tall_rect": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.5,
+        0.9
+      ]
+    }
+  },
+  "details": {
+    "juliet_balcony": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 4
+    },
+    "cornice": {
+      "weight": 4
+    },
+    "string_courses": {
+      "weight": 4
+    },
+    "attached": {
+      "require": true
+    },
+    "keystones": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "ashlar": {
+      "weight": 5
+    },
+    "stucco": {
+      "weight": 2
+    }
+  }
+}

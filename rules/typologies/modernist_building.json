@@ -1,0 +1,96 @@
+{
+  "$comment": "typology dna \u2014 modernist building. avant-garde / Catalan modernisme building with organic ironwork, tile accents, and sculpted facade.",
+  "id": "modernist_building",
+  "kind": "typology",
+  "typologies": {
+    "modernist_building": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        4,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.75
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.6,
+        0.9
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "mansard": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "arched": {
+      "weight": 4
+    },
+    "bay": {
+      "weight": 3
+    },
+    "french": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "arched": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "weight": 3
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.6,
+        1.0
+      ]
+    }
+  },
+  "details": {
+    "ironwork": {
+      "require": true
+    },
+    "tilework": {
+      "weight": 4
+    },
+    "ornamental_facade": {
+      "weight": 4
+    },
+    "balcony_rail": {
+      "weight": 4
+    },
+    "attached": {
+      "require": true
+    }
+  }
+}

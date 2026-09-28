@@ -1,0 +1,75 @@
+{
+  "$comment": "city — hong_kong. extends sinitic family: tong lau shophouses, deep balconies protruding over narrow streets, dense vertical signage, and bamboo scaffolding era details.",
+  "id": "hong_kong",
+  "extends": [
+    "sinitic"
+  ],
+  "typologies": {
+    "tong_lau": {
+      "weight": 5
+    },
+    "shop_house": {
+      "weight": 3
+    },
+    "small_apartment": {
+      "weight": 3
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        8
+      ]
+    },
+    "width": {
+      "range": [
+        0.2,
+        0.45
+      ]
+    }
+  },
+  "roof": {
+    "tile_gable": {
+      "weight": 1
+    }
+  },
+  "facade": {
+    "concrete": {
+      "weight": 3
+    },
+    "tile": {
+      "weight": 2
+    }
+  },
+  "windows": {
+    "balcony_window": {
+      "weight": 4
+    },
+    "sliding": {
+      "weight": 2
+    }
+  },
+  "details": {
+    "overhanging_balcony": {
+      "weight": 4
+    },
+    "vertical_signage": {
+      "weight": 5
+    },
+    "bamboo_scaffolding": {
+      "weight": 3
+    },
+    "ac_unit": {
+      "weight": 4
+    },
+    "utility_wires": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "covered_arcade": {
+      "weight": 3
+    }
+  }
+}

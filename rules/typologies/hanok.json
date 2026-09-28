@@ -1,0 +1,91 @@
+{
+  "$comment": "typology dna — hanok. traditional korean courtyard home with single-story massing, giwa tile roofing, wooden structural posts, and madang courtyard.",
+  "id": "hanok",
+  "massing": {
+    "floors": {
+      "range": [
+        1,
+        1
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.7
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.15,
+        0.35
+      ]
+    }
+  },
+  "roof": {
+    "curved_tile_gable": {
+      "weight": 4
+    },
+    "tile_hip": {
+      "weight": 4
+    }
+  },
+  "roof_material": {
+    "giwa_tile": {
+      "weight": 5
+    }
+  },
+  "windows": {
+    "hanji_screen": {
+      "weight": 5
+    },
+    "wooden_lattice": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "wooden_dancheong": {
+      "weight": 4
+    },
+    "stone_base_wall": {
+      "weight": 4
+    },
+    "plaster": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "wooden_gate": {
+      "weight": 4
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "madang_courtyard": {
+      "weight": 5
+    },
+    "stone_wall_perimeter": {
+      "weight": 4
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.2,
+        0.6
+      ]
+    }
+  },
+  "details": {
+    "dancheong_woodwork": {
+      "weight": 4
+    },
+    "stone_base": {
+      "weight": 4
+    }
+  }
+}

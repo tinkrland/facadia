@@ -1,0 +1,230 @@
+{
+  "$comment": "vernacular family — modern_metropolis. substrate for modern high-rise urban centers with glass curtain walls, flat roofs, and minimal ornament.",
+  "id": "modern_metropolis",
+  "typologies": {
+    "apartment": {
+      "weight": 4
+    },
+    "modernist_building": {
+      "weight": 4
+    },
+    "utility_building": {
+      "weight": 2
+    },
+    "warehouse": {
+      "weight": 1
+    },
+    "cottage": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "canal_house": {
+      "forbid": true
+    },
+    "machiya": {
+      "forbid": true
+    },
+    "farmhouse": {
+      "forbid": true
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        8,
+        40
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.9
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.7,
+        1.0
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 5
+    },
+    "gable": {
+      "forbid": true
+    },
+    "hip": {
+      "forbid": true
+    },
+    "mansard": {
+      "forbid": true
+    },
+    "stepped_gable": {
+      "forbid": true
+    },
+    "sawtooth": {
+      "forbid": true
+    }
+  },
+  "roof_material": {
+    "tar": {
+      "weight": 4
+    },
+    "gravel": {
+      "weight": 3
+    },
+    "metal_standing_seam": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "hvac": {
+      "weight": 4
+    },
+    "water_tank": {
+      "weight": 3
+    },
+    "antenna": {
+      "weight": 3
+    },
+    "roof_terrace": {
+      "weight": 3
+    },
+    "chimney": {
+      "forbid": true
+    }
+  },
+  "windows": {
+    "ribbon": {
+      "weight": 5
+    },
+    "reflective_glazing": {
+      "weight": 4
+    },
+    "blue_glazing": {
+      "weight": 4
+    },
+    "large_glazing": {
+      "weight": 4
+    },
+    "storefront_glazing": {
+      "weight": 3
+    },
+    "sash": {
+      "forbid": true
+    },
+    "shuttered": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "glass_curtain_wall": {
+      "weight": 5
+    },
+    "concrete": {
+      "weight": 3
+    },
+    "metal": {
+      "weight": 3
+    },
+    "clapboard": {
+      "forbid": true
+    },
+    "brownstone": {
+      "forbid": true
+    },
+    "wood_siding": {
+      "forbid": true
+    },
+    "half_timber": {
+      "forbid": true
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 4
+    },
+    "double": {
+      "weight": 3
+    },
+    "stoop": {
+      "forbid": true
+    }
+  },
+  "ground": {
+    "podium": {
+      "weight": 4
+    },
+    "plaza": {
+      "weight": 4
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "setback": {
+      "range": [
+        0.0,
+        0.4
+      ]
+    }
+  },
+  "details": {
+    "podium_tower_massing": {
+      "weight": 5
+    },
+    "curtain_wall_mullions": {
+      "weight": 4
+    },
+    "spandrel_glass": {
+      "weight": 4
+    },
+    "ac_unit": {
+      "weight": 2
+    },
+    "signage": {
+      "weight": 2
+    },
+    "cornice": {
+      "forbid": true
+    },
+    "bracketed_cornice": {
+      "forbid": true
+    },
+    "heavy_cornice": {
+      "forbid": true
+    },
+    "ornate_cornice": {
+      "forbid": true
+    },
+    "string_courses": {
+      "forbid": true
+    },
+    "shutters": {
+      "forbid": true
+    },
+    "ironwork": {
+      "forbid": true
+    },
+    "gingerbread_trim": {
+      "forbid": true
+    },
+    "brick_arches": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.15
+      ]
+    }
+  }
+}

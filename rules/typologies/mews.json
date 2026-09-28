@@ -1,0 +1,108 @@
+{
+  "$comment": "typology dna \u2014 mews. low 2-story converted stable building along a narrow lane with garage bay doors and window boxes.",
+  "id": "mews",
+  "kind": "typology",
+  "typologies": {
+    "mews": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        2
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.5
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.3,
+        0.5
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 3
+    },
+    "hip": {
+      "weight": 1
+    }
+  },
+  "windows": {
+    "casement": {
+      "weight": 4
+    },
+    "sash": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "require": true
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.1
+      ]
+    },
+    "zero_setback": {
+      "weight": 3
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.1,
+        0.4
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "require": true
+    },
+    "cellar_doors": {
+      "weight": 2
+    }
+  },
+  "attachments": {
+    "garage": {
+      "weight": 4
+    }
+  },
+  "vegetation": {
+    "window_box": {
+      "weight": 4
+    },
+    "potted_plants": {
+      "weight": 3
+    }
+  },
+  "facade": {
+    "brick": {
+      "weight": 4
+    },
+    "painted_brick": {
+      "weight": 3
+    },
+    "stucco": {
+      "weight": 2
+    }
+  }
+}

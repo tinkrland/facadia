@@ -1,0 +1,101 @@
+{
+  "$comment": "typology dna \u2014 council house. mid-20th century UK social housing block with utilitarian geometry and low ornament.",
+  "id": "council_house",
+  "kind": "typology",
+  "typologies": {
+    "council_house": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        3,
+        6
+      ]
+    },
+    "width": {
+      "range": [
+        0.4,
+        0.75
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "flat": {
+      "weight": 4
+    },
+    "low_pitch": {
+      "weight": 3
+    },
+    "gable": {
+      "weight": 1
+    }
+  },
+  "windows": {
+    "casement": {
+      "weight": 4
+    },
+    "square": {
+      "weight": 3
+    }
+  },
+  "entrance": {
+    "recessed": {
+      "weight": 3
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.1,
+        0.5
+      ]
+    },
+    "grass_verge": {
+      "weight": 3
+    },
+    "small_front_garden": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.0,
+        0.2
+      ]
+    }
+  },
+  "details": {
+    "attached": {
+      "weight": 3
+    },
+    "balcony_rail": {
+      "weight": 3
+    },
+    "ornate_cornice": {
+      "forbid": true
+    }
+  },
+  "facade": {
+    "red_brick": {
+      "weight": 4
+    },
+    "brick": {
+      "weight": 3
+    },
+    "plaster": {
+      "weight": 2
+    }
+  }
+}

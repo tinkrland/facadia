@@ -1,0 +1,109 @@
+{
+  "$comment": "typology dna \u2014 bakery. commercial ground floor with artisan storefront, upper residential levels.",
+  "id": "bakery",
+  "kind": "typology",
+  "typologies": {
+    "bakery": {
+      "weight": 4
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        5
+      ]
+    },
+    "width": {
+      "range": [
+        0.3,
+        0.55
+      ]
+    },
+    "verticality": {
+      "range": [
+        0.5,
+        0.8
+      ]
+    }
+  },
+  "roof": {
+    "mansard": {
+      "weight": 4
+    },
+    "flat": {
+      "weight": 2
+    },
+    "gable": {
+      "weight": 1
+    }
+  },
+  "roof_material": {
+    "zinc": {
+      "weight": 3
+    },
+    "slate": {
+      "weight": 3
+    }
+  },
+  "roof_accessories": {
+    "dormer": {
+      "weight": 3
+    }
+  },
+  "windows": {
+    "shop_window": {
+      "weight": 4
+    },
+    "french": {
+      "weight": 3
+    },
+    "multi_pane": {
+      "weight": 2
+    }
+  },
+  "entrance": {
+    "at_grade": {
+      "weight": 4
+    },
+    "recessed": {
+      "weight": 2
+    }
+  },
+  "ground": {
+    "setback": {
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    "zero_setback": {
+      "require": true
+    },
+    "front_garden": {
+      "forbid": true
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.3,
+        0.7
+      ]
+    }
+  },
+  "details": {
+    "signage": {
+      "require": true
+    },
+    "awning": {
+      "weight": 4
+    },
+    "store_sign": {
+      "weight": 3
+    },
+    "attached": {
+      "weight": 4
+    }
+  }
+}

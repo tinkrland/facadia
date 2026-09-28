@@ -1,5 +1,5 @@
 {
-  "$comment": "city \u2014 kyoto. japanese family held at the traditional end: machiya, deep entrances, wooden lattice, tile roofs. vocabulary NOT yet glossary-verified.",
+  "$comment": "city — kyoto. japanese family held at the traditional end: machiya, deep entrances, wooden lattice, tile roofs. vocabulary NOT yet glossary-verified.",
   "id": "kyoto",
   "extends": [
     "japanese"
@@ -72,9 +72,6 @@
     "noren": {
       "weight": 2
     },
-    "engawa": {
-      "weight": 2
-    },
     "utility_wires": {
       "weight": 0.6
     },
@@ -85,9 +82,6 @@
   "ground": {
     "courtyard": {
       "weight": 2
-    },
-    "narrow_lot": {
-      "require": true
     }
   }
 }

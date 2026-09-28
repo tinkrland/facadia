@@ -1,0 +1,111 @@
+{
+  "$comment": "city — singapore. sinitic family; straits shophouse — pastel peranakan tiles, pintu pagar, five-foot way arcade for tropical airflow. sourced: Figment Koon Seng Road article.",
+  "id": "singapore",
+  "kind": "city",
+  "extends": [
+    "sinitic"
+  ],
+  "typologies": {
+    "shop_house": {
+      "weight": 5
+    },
+    "small_apartment": {
+      "weight": 3
+    },
+    "courtyard_apartment": {
+      "weight": 2
+    },
+    "shikumen": {
+      "forbid": true
+    }
+  },
+  "massing": {
+    "floors": {
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "roof": {
+    "upturned_eaves_gable": {
+      "weight": 0.5
+    },
+    "tile_gable": {
+      "weight": 3
+    },
+    "flat": {
+      "weight": 2
+    }
+  },
+  "roof_material": {
+    "metal_roof": {
+      "weight": 2
+    }
+  },
+  "facade": {
+    "pastel_stucco": {
+      "weight": 5
+    },
+    "plaster": {
+      "weight": 4
+    },
+    "grey_brick": {
+      "weight": 0.5
+    }
+  },
+  "windows": {
+    "wooden_lattice": {
+      "weight": 3
+    },
+    "louvered": {
+      "weight": 4
+    }
+  },
+  "entrance": {
+    "pintu_pagar": {
+      "weight": 4
+    },
+    "at_grade": {
+      "weight": 3
+    }
+  },
+  "ground": {
+    "five_foot_way": {
+      "require": true
+    }
+  },
+  "details": {
+    "peranakan_tiles": {
+      "weight": 4
+    },
+    "floral_motif_tiles": {
+      "weight": 3
+    },
+    "air_well": {
+      "weight": 3
+    },
+    "awnings": {
+      "weight": 3
+    },
+    "vertical_signage": {
+      "weight": 2
+    }
+  },
+  "ornament": {
+    "density": {
+      "range": [
+        0.4,
+        0.8
+      ]
+    }
+  },
+  "vegetation": {
+    "bougainvillea": {
+      "weight": 3
+    },
+    "bamboo": {
+      "weight": 0.5
+    }
+  }
+}
